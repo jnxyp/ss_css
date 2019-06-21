@@ -1,0 +1,465 @@
+@ss-color-glowblue: #82f8ff;
+@ss-color-lightblue: #42d9ff;
+@ss-color-darkblue: #1174ff;
+@ss-color-shadowblue: #012ce2;
+
+@ss-color-black: #000;
+@ss-color-brown: #b68175;
+@ss-color-grey: #999999;
+@ss-color-white: #f5f5f5;
+
+@ss-color-green: #00CD92;
+@ss-color-lime: #8fc138;
+@ss-color-yellow: #eecc11;
+@ss-color-orange: #ff8811;
+@ss-color-red: #ff0000;
+
+@ss-color-darkcyan: #16515e;
+@ss-color-cyan: #508597;
+@ss-color-lightcyan: #A7DAFB;
+@ss-color-portage: #8597D1;
+@ss-color-darkred: #a31b1a;
+
+@ss-color-plain-text: @ss-color-black;
+@ss-color-header-text: @ss-color-lightcyan;
+
+@ss-margin-right: 0.1rem;
+@ss-margin-bottom: 0.1rem;
+
+.ss-font-display {
+  font-family: Orbitron, REEJI-BigYoung, sans-serif;
+}
+
+.ss-font-text { // TBD, use sans-serif for now
+  font-family: Arial, "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑", sans-serif;
+}
+
+.ss-shadow-text {
+  text-shadow: 0.02em 0.02em 0.02em @ss-color-black;
+}
+
+.ss-transition-standard {
+  transition-duration: 250ms;
+}
+
+.ss-transition-fast {
+  transition-duration: 50ms;
+}
+
+.ss-text-display {
+
+  #warped {
+    .ss-font-display();
+
+    color: @ss-color-darkblue;
+    -webkit-text-stroke: 0.02em @ss-color-glowblue;
+
+    background: linear-gradient(@ss-color-darkblue, @ss-color-lightblue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    filter: drop-shadow(0 -0.05em 0.04em @ss-color-shadowblue);
+  }
+
+  #warped();
+
+  &-1 {
+    #warped();
+    font-size: 5rem;
+  }
+
+  &-2 {
+    #warped();
+    font-size: 4.5rem;
+  }
+
+  &-3 {
+    #warped();
+    font-size: 3.7rem;
+  }
+
+  &-4 {
+    #warped();
+    font-size: 3rem;
+  }
+
+}
+
+.ss-text-header {
+  #warped {
+    .ss-font-display();
+
+    color: @ss-color-header-text;
+
+    .ss-shadow-text();
+
+    margin-top: 0;
+    margin-bottom: .5rem;
+  }
+
+  #warped();
+
+  &-1 {
+    #warped();
+    font-size: 3rem;
+  }
+
+  &-2 {
+    #warped();
+    font-size: 2.5rem;
+  }
+
+  &-3 {
+    #warped();
+    font-size: 2rem;
+  }
+
+  &-4 {
+    #warped();
+    font-size: 1.75rem;
+  }
+
+  &-5 {
+    #warped();
+    font-size: 1.5rem;
+  }
+
+  &-6 {
+    #warped();
+    font-size: 1.25rem;
+  }
+}
+
+table.ss-table {
+  margin-right: @ss-margin-right;
+  margin-bottom: @ss-margin-bottom;
+  .ss-font-text();
+  display: block;
+  overflow: auto;
+
+  & td, th {
+    padding: 6px 13px;
+  }
+
+  & th {
+    .ss-font-display();
+    font-weight: 600;
+    background: @ss-color-darkcyan;
+    color: @ss-color-lightcyan;
+  }
+
+  & td {
+    background-color: @ss-color-lightcyan;
+  }
+
+  & td:hover {
+    background: @ss-color-cyan;
+    color: @ss-color-white;
+    .ss-transition-standard();
+  }
+}
+
+.ss-shape-rectangle(@width, @height, @color) {
+  width: @width;
+  height: @height;
+  background: @color;
+}
+
+.ss-shape-triangle-topleft(@width, @height, @color) {
+  width: 0;
+  height: 0;
+  border-top: @height solid @color;
+  border-right: @width solid transparent;
+}
+
+.ss-shape-triangle-topright(@width, @height, @color) {
+  width: 0;
+  height: 0;
+  border-top: @height solid @color;
+  border-left: @width solid transparent;
+}
+
+.ss-shape-triangle-bottomleft(@width, @height, @color) {
+  width: 0;
+  height: 0;
+  border-bottom: @height solid @color;
+  border-right: @width solid transparent;
+}
+
+.ss-shape-triangle-bottomright(@width, @height, @color) {
+  width: 0;
+  height: 0;
+  border-bottom: @height solid @color;
+  border-left: @width solid transparent;
+}
+
+.ss-button-menu {
+  #warped {
+    position: relative;
+    margin-right: @ss-margin-right;
+    margin-bottom: @ss-margin-bottom;
+    .ss-transition-standard();
+    .ss-font-display();
+    .ss-shadow-text();
+
+    font-size: 1.5rem;
+
+    font-weight: 600;
+    background: @ss-color-darkcyan;
+    color: @ss-color-lightcyan;
+    border: 0;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+
+    &:hover {
+      color:@ss-color-white;
+      filter: brightness(150%);
+    }
+
+    &:active {
+      .ss-transition-fast();
+      color:@ss-color-white;
+      filter: brightness(250%);
+    }
+
+    &:before {
+      top: 0;
+      left: 0;
+      content: '';
+      position: absolute;
+      .ss-shape-triangle-topleft(0.45em, 0.45em, @ss-color-white);
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      .ss-shape-triangle-bottomright(0.45em, 0.45em, @ss-color-white);
+    }
+  }
+
+  #warped();
+
+  &-big {
+    #warped();
+    font-size: 2.5rem;
+  }
+
+  &-small {
+    #warped();
+    font-size: 1rem;
+  }
+
+
+}
+
+.ss-button-tab {
+  #warped {
+    position: relative;
+    margin-right: @ss-margin-right;
+    margin-bottom: @ss-margin-bottom;
+    .ss-transition-standard();
+    .ss-font-display();
+    .ss-shadow-text();
+
+    font-size: 1.25rem;
+
+    background: @ss-color-darkcyan;
+    color: @ss-color-lightcyan;
+    border: 0.05em solid @ss-color-glowblue;
+    border-radius: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    &:hover {
+      color:@ss-color-white;
+      filter: brightness(150%);
+    }
+
+    &:active {
+      .ss-transition-fast();
+      color:@ss-color-white;
+      filter: brightness(250%);
+    }
+  }
+
+  #warped();
+
+  &-big {
+    #warped();
+    font-size: 2rem;
+  }
+
+  &-small {
+    #warped();
+    font-size: 1rem;
+  }
+
+
+}
+
+input.ss-checkbox[type="checkbox"] {
+
+  vertical-align: top;
+  position: relative;
+
+  display: inline-block;
+  visibility: hidden;
+
+  font-size: inherit;
+  margin-right: 0.75em;
+
+  &:before {
+
+    visibility: visible;
+    position: absolute;
+
+    top: 0.15em; // equal to the total width of box-shadows
+
+    .ss-transition-standard();
+
+    content: '';
+    display: inline-block;
+    width: 0.75em;
+    height: 0.75em;
+    background: lighten(@ss-color-black, 85%);
+    border-radius: 0.2em;
+
+    border: 0.05em solid @ss-color-lightblue;
+    box-shadow: 0 0 0.05em 0.1em fade(@ss-color-black, 50%) inset, 0 0 0 0.1em @ss-color-brown inset, 0 0 0 0.02em @ss-color-black, 0 0 0.05em 0.1em @ss-color-white, 0 0 0.15em 0.05em @ss-color-black;
+  }
+
+  &:hover:before {
+    filter: brightness(150%);
+  }
+
+  &:checked:before {
+    transition-duration: 0ms;
+    background: @ss-color-glowblue;
+  }
+}
+
+.ss-panel-major {
+
+}
+
+.ss-foreground, .ss-fg {
+  &-green {
+    color: @ss-color-green;
+  }
+
+  &-lime {
+    color: @ss-color-lime;
+  }
+
+  &-yellow {
+    color: @ss-color-yellow;
+  }
+
+  &-orange {
+    color: @ss-color-orange;
+  }
+
+  &-red {
+    color: @ss-color-red;
+  }
+
+  &-darkcyan {
+    color: @ss-color-darkcyan;
+  }
+
+  &-cyan {
+    color: @ss-color-cyan;
+  }
+
+  &-lightcyan {
+    color: @ss-color-lightcyan;
+  }
+
+  &-portage {
+    color: @ss-color-portage;
+  }
+
+  &-glowblue {
+    color: @ss-color-glowblue;
+  }
+
+  &-lightblue {
+    color: @ss-color-lightblue;
+  }
+
+  &-darkblue {
+    color: @ss-color-darkblue;
+  }
+
+  &-shadowblue {
+    color: @ss-color-shadowblue;
+  }
+
+  &-darkred {
+    color: @ss-color-darkred;
+  }
+}
+
+.ss-background, .ss-bg {
+  &-green {
+    background: @ss-color-green;
+  }
+
+  &-lime {
+    background: @ss-color-lime;
+  }
+
+  &-yellow {
+    background: @ss-color-yellow;
+  }
+
+  &-orange {
+    background: @ss-color-orange;
+  }
+
+  &-red {
+    background: @ss-color-red;
+  }
+
+  &-darkcyan {
+    background: @ss-color-darkcyan;
+  }
+
+  &-cyan {
+    background: @ss-color-cyan;
+  }
+
+  &-lightcyan {
+    background: @ss-color-lightcyan;
+  }
+
+  &-portage {
+    background: @ss-color-portage;
+  }
+
+  &-glowblue {
+    background: @ss-color-glowblue;
+  }
+
+  &-lightblue {
+    background: @ss-color-lightblue;
+  }
+
+  &-darkblue {
+    background: @ss-color-darkblue;
+  }
+
+  &-shadowblue {
+    background: @ss-color-shadowblue;
+  }
+
+  &-darkred {
+    background: @ss-color-darkred;
+  }
+}
+
+.ss-text-paragraph {
+  // TODO
+}
