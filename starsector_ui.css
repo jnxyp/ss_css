@@ -1,3 +1,12 @@
+.ss-box-sizing {
+  box-sizing: border-box;
+}
+.ss-box-sizing:before {
+  box-sizing: border-box;
+}
+.ss-box-sizing:after {
+  box-sizing: border-box;
+}
 .ss-font-display {
   font-family: Orbitron, REEJI-BigYoung, sans-serif;
 }
@@ -142,7 +151,7 @@ table.ss-table {
 }
 table.ss-table td,
 table.ss-table th {
-  padding: 6px 13px;
+  padding: 0.3em 0.3em;
 }
 table.ss-table th {
   font-family: Orbitron, REEJI-BigYoung, sans-serif;
@@ -204,7 +213,7 @@ table.ss-table td:hover {
   position: absolute;
   width: 0;
   height: 0;
-  border-top: 0.45em solid #f5f5f5;
+  border-top: 0.45em solid #ffffff;
   border-right: 0.45em solid transparent;
 }
 .ss-button-menu #warped:after {
@@ -214,7 +223,7 @@ table.ss-table td:hover {
   right: 0;
   width: 0;
   height: 0;
-  border-bottom: 0.45em solid #f5f5f5;
+  border-bottom: 0.45em solid #ffffff;
   border-left: 0.45em solid transparent;
 }
 .ss-button-menu:hover {
@@ -233,7 +242,7 @@ table.ss-table td:hover {
   position: absolute;
   width: 0;
   height: 0;
-  border-top: 0.45em solid #f5f5f5;
+  border-top: 0.45em solid #ffffff;
   border-right: 0.45em solid transparent;
 }
 .ss-button-menu:after {
@@ -243,7 +252,7 @@ table.ss-table td:hover {
   right: 0;
   width: 0;
   height: 0;
-  border-bottom: 0.45em solid #f5f5f5;
+  border-bottom: 0.45em solid #ffffff;
   border-left: 0.45em solid transparent;
 }
 .ss-button-menu-big {
@@ -278,7 +287,7 @@ table.ss-table td:hover {
   position: absolute;
   width: 0;
   height: 0;
-  border-top: 0.45em solid #f5f5f5;
+  border-top: 0.45em solid #ffffff;
   border-right: 0.45em solid transparent;
 }
 .ss-button-menu-big:after {
@@ -288,7 +297,7 @@ table.ss-table td:hover {
   right: 0;
   width: 0;
   height: 0;
-  border-bottom: 0.45em solid #f5f5f5;
+  border-bottom: 0.45em solid #ffffff;
   border-left: 0.45em solid transparent;
 }
 .ss-button-menu-small {
@@ -323,7 +332,7 @@ table.ss-table td:hover {
   position: absolute;
   width: 0;
   height: 0;
-  border-top: 0.45em solid #f5f5f5;
+  border-top: 0.45em solid #ffffff;
   border-right: 0.45em solid transparent;
 }
 .ss-button-menu-small:after {
@@ -333,7 +342,7 @@ table.ss-table td:hover {
   right: 0;
   width: 0;
   height: 0;
-  border-bottom: 0.45em solid #f5f5f5;
+  border-bottom: 0.45em solid #ffffff;
   border-left: 0.45em solid transparent;
 }
 .ss-button-tab {
@@ -462,6 +471,117 @@ input.ss-checkbox[type="checkbox"]:hover:before {
 input.ss-checkbox[type="checkbox"]:checked:before {
   transition-duration: 0ms;
   background: #82f8ff;
+}
+.ss-scrollbar #warped::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.ss-scrollbar #warped::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+.ss-scrollbar #warped::-webkit-scrollbar-thumb {
+  border-radius: 0.25rem;
+  background: rgba(80, 133, 151, 0.9);
+}
+.ss-scrollbar #warped::-webkit-scrollbar-thumb:hover {
+  background: rgba(167, 218, 251, 0.8);
+}
+.ss-scrollbar::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.ss-scrollbar::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+.ss-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 0.25rem;
+  background: rgba(80, 133, 151, 0.9);
+}
+.ss-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(167, 218, 251, 0.8);
+}
+.ss-scrollbar-x::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.ss-scrollbar-x::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+.ss-scrollbar-x::-webkit-scrollbar-thumb {
+  border-radius: 0.25rem;
+  background: rgba(80, 133, 151, 0.9);
+}
+.ss-scrollbar-x::-webkit-scrollbar-thumb:hover {
+  background: rgba(167, 218, 251, 0.8);
+}
+.ss-scrollbar-x::-webkit-scrollbar-track {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, #16515e 40%, #16515e 60%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+}
+.ss-scrollbar-y::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.ss-scrollbar-y::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+.ss-scrollbar-y::-webkit-scrollbar-thumb {
+  border-radius: 0.25rem;
+  background: rgba(80, 133, 151, 0.9);
+}
+.ss-scrollbar-y::-webkit-scrollbar-thumb:hover {
+  background: rgba(167, 218, 251, 0.8);
+}
+.ss-scrollbar-y::-webkit-scrollbar-track {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, #16515e 40%, #16515e 60%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+}
+.ss-panel {
+  padding: 0.2rem;
+  position: relative;
+  box-sizing: border-box;
+}
+.ss-panel #warped {
+  padding: 0.2rem;
+  position: relative;
+  box-sizing: border-box;
+}
+.ss-panel #warped:before {
+  box-sizing: border-box;
+}
+.ss-panel #warped:after {
+  box-sizing: border-box;
+}
+.ss-panel:before {
+  box-sizing: border-box;
+}
+.ss-panel:after {
+  box-sizing: border-box;
+}
+.ss-panel-major {
+  padding: 0.2rem;
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 0.3rem;
+  margin-left: 0.3rem;
+  margin-right: 0.4rem;
+  margin-bottom: 0.4rem;
+  border: 0.1rem dotted #508597;
+}
+.ss-panel-major:before {
+  box-sizing: border-box;
+}
+.ss-panel-major:after {
+  box-sizing: border-box;
+}
+.ss-panel-major:before {
+  content: '';
+  position: absolute;
+  top: -0.3rem;
+  left: -0.3rem;
+  right: -0.3rem;
+  bottom: -0.3rem;
+  z-index: -1;
+  border: 0.1rem solid #8597D1;
+  border-radius: 0.2rem;
 }
 .ss-foreground-green,
 .ss-fg-green {
