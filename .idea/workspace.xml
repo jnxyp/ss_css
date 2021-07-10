@@ -2,17 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edd32354-b2f1-4ca3-8462-f4dc313549b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starsector_ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/starsector_ui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starsector_ui.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/starsector_ui.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Black.eot" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Orbitron-Black.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Orbitron-Black.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Black.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Orbitron-Black.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Black.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Orbitron-Black.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Orbitron-Bold.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Orbitron-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Orbitron-Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Orbitron-Bold.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Medium.eot" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Orbitron-Medium.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Orbitron-Medium.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Orbitron-Medium.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Orbitron-Medium.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Orbitron-Regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Orbitron-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Orbitron-Regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Orbitron-Regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/REEJI-BigYoung-BoldGB20.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/REEJI-BigYoung-BoldGB20.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/REEJI-BigYoung-BoldGB20.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/REEJI-BigYoung-BoldGB20.woff2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/starsector_ui.less" beforeDir="false" afterPath="$PROJECT_DIR$/starsector_ui.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_fonts.css" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,65 +34,6 @@
   <component name="ElmWorkspace">
     <elmProjects />
     <settings elmCompilerPath="" elmFormatPath="" elmTestPath="" isElmFormatOnSaveEnabled="false" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/starsector_ui.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1001">
-              <caret line="494" column="10" selection-start-line="494" selection-start-column="4" selection-end-line="494" selection-end-column="10" />
-              <folding>
-                <element signature="e#5320#6176#0" />
-                <element signature="e#6192#7127#0" />
-                <element signature="e#7908#8658#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reference/survey_yuendumu-1024x640.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reference/new_messages-1024x640.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reference/mi_eventide_main-1024x640.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/starsector_ui.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="579" column="15" lean-forward="true" selection-start-line="579" selection-start-column="15" selection-end-line="579" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="174" column="9" selection-start-line="174" selection-start-column="9" selection-end-line="174" selection-end-column="9" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#textarea#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#2;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#2;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -128,6 +82,7 @@
     <option name="width" value="995" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectId" id="1uSx4nGYq8XpHL0qQkHMmus0Hgc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -158,12 +113,18 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Resume" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fossic.org/Frontend" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -174,7 +135,8 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -183,18 +145,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\My File\Projects\HTML\ss_css" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ss_css/index.html" useBuiltInWebServerPort="true">
@@ -206,6 +156,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -235,6 +186,10 @@
       <workItem from="1561522306770" duration="15000" />
       <workItem from="1562430568608" duration="5452000" />
       <workItem from="1562465820234" duration="4423000" />
+      <workItem from="1624672607210" duration="2769000" />
+      <workItem from="1625296349806" duration="1241000" />
+      <workItem from="1625880859835" duration="1250000" />
+      <workItem from="1625905724374" duration="2518000" />
     </task>
     <task id="LOCAL-00001" summary="Work done so far">
       <created>1561084565169</created>
@@ -303,7 +258,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Work done so far" />
