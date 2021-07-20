@@ -1,0 +1,110 @@
+/*
+    Web Font definitions for Starsector fonts
+    Note: Put the Orbitron font before the Reeji-BigYoung in font-family names
+    Author: jn_xyp (jinan.xyp@gmail.com)
+*/
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('Orbitron-Black.eot');
+    src: local('Orbitron Black'), local('Orbitron-Black'),
+    url('Orbitron-Black.eot?#iefix') format('embedded-opentype'),
+    url('Orbitron-Black.woff2') format('woff2'),
+    url('Orbitron-Black.woff') format('woff'),
+    url('Orbitron-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('Orbitron-Bold.eot');
+    src: local('Orbitron Bold'), local('Orbitron-Bold'),
+    url('Orbitron-Bold.eot?#iefix') format('embedded-opentype'),
+    url('Orbitron-Bold.woff2') format('woff2'),
+    url('Orbitron-Bold.woff') format('woff'),
+    url('Orbitron-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('Orbitron-ExtraBold.eot');
+    src: local('Orbitron ExtraBold'), local('Orbitron-ExtraBold'),
+    url('Orbitron-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('Orbitron-ExtraBold.woff2') format('woff2'),
+    url('Orbitron-ExtraBold.woff') format('woff'),
+    url('Orbitron-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('Orbitron-Medium.eot');
+    src: local('Orbitron Medium'), local('Orbitron-Medium'),
+    url('Orbitron-Medium.eot?#iefix') format('embedded-opentype'),
+    url('Orbitron-Medium.woff2') format('woff2'),
+    url('Orbitron-Medium.woff') format('woff'),
+    url('Orbitron-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('Orbitron-SemiBold.eot');
+    src: local('Orbitron SemiBold'), local('Orbitron-SemiBold'),
+    url('Orbitron-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('Orbitron-SemiBold.woff2') format('woff2'),
+    url('Orbitron-SemiBold.woff') format('woff'),
+    url('Orbitron-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('Orbitron-Regular.eot');
+    src: local('Orbitron Regular'), local('Orbitron-Regular'),
+    url('Orbitron-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Orbitron-Regular.woff2') format('woff2'),
+    url('Orbitron-Regular.woff') format('woff'),
+    url('Orbitron-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'REEJI-BigYoung';
+    src: url('REEJI-BigYoungGB20-Flash-Medium.eot');
+    src: local('REEJI-BigYoungGB2.0-Flash Medium'), local('REEJI-BigYoungGB2.0-Flash-Medium'),
+    url('REEJI-BigYoungGB20-Flash-Medium.eot?#iefix') format('embedded-opentype'),
+    url('REEJI-BigYoungGB20-Flash-Medium.woff2') format('woff2'),
+    url('REEJI-BigYoungGB20-Flash-Medium.woff') format('woff'),
+    url('REEJI-BigYoungGB20-Flash-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'REEJI-BigYoung';
+    src: url('REEJI-BigYoungGB20-Flash-Bold.eot');
+    src: local('REEJI-BigYoungGB2.0-Flash Bold'), local('REEJI-BigYoungGB2.0-Flash-Bold'),
+    url('REEJI-BigYoungGB20-Flash-Bold.eot?#iefix') format('embedded-opentype'),
+    url('REEJI-BigYoungGB20-Flash-Bold.woff2') format('woff2'),
+    url('REEJI-BigYoungGB20-Flash-Bold.woff') format('woff'),
+    url('REEJI-BigYoungGB20-Flash-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

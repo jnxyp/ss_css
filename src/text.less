@@ -1,0 +1,90 @@
+@import "color";
+@import "font";
+
+.ss-text-shadow {
+  text-shadow: 0.03em 0.03em 0.03em @ss-color-black;
+}
+
+.ss-text-display {
+
+  #warped {
+    .ss-font-ui();
+
+    color: @ss-color-darkblue;
+    -webkit-text-stroke: 0.02em @ss-color-glowblue;
+
+    background: linear-gradient(@ss-color-darkblue, @ss-color-lightblue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    filter: drop-shadow(0 -0.05em 0.04em @ss-color-shadowblue);
+  }
+
+  #warped();
+
+  &-1 {
+    #warped();
+    font-size: 5rem;
+  }
+
+  &-2 {
+    #warped();
+    font-size: 4.5rem;
+  }
+
+  &-3 {
+    #warped();
+    font-size: 3.7rem;
+  }
+
+  &-4 {
+    #warped();
+    font-size: 3rem;
+  }
+
+}
+
+.ss-text-header {
+  #warped {
+    .ss-font-ui();
+
+    color: @ss-color-header-text;
+
+    .ss-text-shadow();
+
+    margin-top: 0;
+    margin-bottom: .5rem;
+  }
+
+  #warped();
+
+  &-1 {
+    #warped();
+    font-size: 3rem;
+  }
+
+  &-2 {
+    #warped();
+    font-size: 2.5rem;
+  }
+
+  &-3 {
+    #warped();
+    font-size: 2rem;
+  }
+
+  &-4 {
+    #warped();
+    font-size: 1.75rem;
+  }
+
+  &-5 {
+    #warped();
+    font-size: 1.5rem;
+  }
+
+  &-6 {
+    #warped();
+    font-size: 1.25rem;
+  }
+}

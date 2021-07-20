@@ -1,0 +1,29 @@
+@import "color";
+
+each(@ss-color-suffix-names, {
+  .ss-foreground-@{value}, .ss-fg-@{value} {
+    @color: "ss-color-@{value}";
+    color: @@color;
+  }
+})
+
+each(@ss-color-suffix-status, {
+  .ss-foreground-@{value}, .ss-fg-@{value} {
+    @color: "ss-color-@{value}";
+    color: @@color;
+  }
+})
+
+each(@ss-color-suffix-names, {
+  .ss-background-@{value}, .ss-bg-@{value} {
+    @color: "ss-color-@{value}";
+    background-color: @@color;
+  }
+})
+
+each(@ss-color-suffix-status, {
+  .ss-background-@{value}, .ss-bg-@{value} {
+    @color: "ss-color-@{value}";
+    background-color: @@color;
+  }
+})

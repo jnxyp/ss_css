@@ -1,0 +1,21 @@
+@import 'color';
+
+@ss-cornershape-radius: 8px;
+
+
+.ss-cornershape-bevel(
+  @corner-top-left-bevel: @ss-cornershape-radius,
+  @corner-top-right-bevel: @ss-cornershape-radius,
+  @corner-bottom-right-bevel: @ss-cornershape-radius,
+  @corner-bottom-left-bevel: @ss-cornershape-radius
+) {
+  clip-path: polygon(
+          @corner-top-left-bevel 0,
+          calc(100% - @corner-top-right-bevel) 0%,
+          100% @corner-top-right-bevel,
+          100% calc(100% - @corner-bottom-right-bevel),
+          calc(100% - @corner-bottom-right-bevel) 100%,
+          @corner-bottom-left-bevel 100%,
+          0% calc(100% - @corner-bottom-left-bevel),
+          0% @corner-top-left-bevel);
+}

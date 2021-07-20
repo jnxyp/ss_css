@@ -1,0 +1,33 @@
+@import "color";
+@import "font";
+@import "util";
+
+
+table.ss-table {
+  margin-right: @ss-margin-right;
+  margin-bottom: @ss-margin-bottom;
+  .ss-font-regular();
+  display: block;
+  overflow: auto;
+
+  & td, th {
+    padding: 0.3em 0.3em;
+  }
+
+  & th {
+    .ss-font-ui();
+    font-weight: 600;
+    background: @ss-color-darkcyan;
+    color: @ss-color-lightcyan;
+  }
+
+  & td {
+    background-color: @ss-color-lightcyan;
+  }
+
+  & td:hover {
+    background: @ss-color-cyan;
+    color: @ss-color-white;
+    .ss-transition-standard();
+  }
+}

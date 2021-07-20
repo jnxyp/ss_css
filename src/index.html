@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Starsector CSS Demo</title>
-    <link rel="stylesheet" href="web_fonts.css">
-    <link rel="stylesheet" href="starsector_ui.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
 </head>
 <body class="ss-scrollbar-y">
+
+<style>
+    body {
+        background:black;
+        color:#f5f5f5;
+    }
+</style>
+
 <div>
     <h1>Starsector CSS Demo</h1>
     <p>by jn_xyp</p>
@@ -16,7 +21,7 @@
 
 <!-- ss-text-display-* -->
 <div>
-    <h2>ss-text-display-*</h2>
+    <h2>ss-text-display[-[1~4]]</h2>
     <hr>
     <h1 class="ss-text-display-1">Starsector Chinese Forum</h1>
     <h2 class="ss-text-display-2">Starsector Chinese Forum</h2>
@@ -30,7 +35,7 @@
 
 <!-- ss-text-header-* -->
 <div>
-    <h2>ss-text-header-*</h2>
+    <h2>ss-text-header[-[1~6]]</h2>
     <hr>
     <h1 class="ss-text-header-1">Title 标题</h1>
     <h2 class="ss-text-header-2 ss-fg-lime">Title 标题</h2>
@@ -47,10 +52,10 @@
     <table class="ss-table">
         <thead>
         <tr>
-            <th>Table heading</th>
-            <th>Table heading</th>
-            <th>Table heading</th>
-            <th>Table heading</th>
+            <th>Table header</th>
+            <th>Table header</th>
+            <th>Table header</th>
+            <th>Table header</th>
         </tr>
         </thead>
         <tbody>
@@ -81,23 +86,30 @@
     <h2>ss-button-*</h2>
     <hr>
 
-    <h3>ss-button-menu(-*)</h3>
+    <h3>ss-button-menu[-[big|small]]</h3>
     <div>
         <button class="ss-button-menu">继续游戏</button>
         <button class="ss-button-menu">新手教程</button>
         <button class="ss-button-menu">战役模式</button>
-        <button class="ss-button-menu ss-bg-darkred ss-fg-red">退出游戏</button>
+        <button class="ss-bg-darkred ss-fg-red ss-button-menu">退出游戏</button>
     </div>
     <div>
         <button class="ss-button-menu-big">Start Game</button>
         <button class="ss-button-menu-small">弟弟！</button>
     </div>
 
-    <h3>ss-button-tab(-*)</h3>
+    <h3>ss-button-tab[-[big|small]]</h3>
     <div>
-        <button class="ss-button-tab">角色技能</button>
-        <button class="ss-button-tab">舰队管理(<u class="ss-fg-yellow">F</u>)</button>
-        <button class="ss-button-tab">舰队改装(<u class="ss-fg-yellow">R</u>)</button>
+        <button class="ss-button-tab">网络信息(<u class="ss-fg-yellow">1</u>)</button>
+        <button class="ss-button-tab">星球(<u class="ss-fg-yellow">2</u>)</button>
+        <button class="ss-button-tab">技能(<u class="ss-fg-yellow">3</u>)</button>
+    </div>
+
+    <h3>ss-button-regular[-[big|small]]</h3>
+    <div>
+        <button class="ss-button-regular">角色技能</button>
+        <button class="ss-button-regular">舰队管理(<u class="ss-fg-yellow">F</u>)</button>
+        <button class="ss-button-regular">舰队改装(<u class="ss-fg-yellow">R</u>)</button>
     </div>
 </div>
 
