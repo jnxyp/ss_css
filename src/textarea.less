@@ -1,0 +1,19 @@
+@import "color";
+@import "util";
+@import "text";
+@import "scrollbar";
+
+.ss-textarea {
+  .ss-caret();
+  .ss-text-regular();
+  background-color: @ss-color-darkcyan;
+  border: 1px solid @ss-color-cyan;
+
+  &:focus {
+    background-color: lighten(@ss-color-darkcyan, 2%);
+    border: 1px solid @ss-color-lightcyan;
+    outline: none;
+  }
+
+  .ss-scrollbar-darkcyan_bg();
+}

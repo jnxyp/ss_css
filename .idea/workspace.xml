@@ -1,71 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9213a936-e6b3-4dcb-b6d1-63fcee1de6a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/legacy/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reference/bVnlhjq.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reference/yxtouyl5t0w41.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/button.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/color.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/color_classes.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cornershape.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reboot.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss_css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/starsector.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/table.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/text.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/jn_xy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ss_css.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ss_css.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+    <list default="true" id="9213a936-e6b3-4dcb-b6d1-63fcee1de6a6" name="Default Changelist" comment="Using webpack for LESS compiling and css postprocess;&#10;Separate different modules to different less files;&#10;Updated web fonts definition;&#10;Re-write ss-button classes with clip-path;&#10;Added color variables based on status (success, danger...).">
+      <change afterPath="$PROJECT_DIR$/src/scrollbar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/textarea.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Black.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-Black.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-Black.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Black.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-Black.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Black.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-Black.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-Bold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-Bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-Bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-ExtraBold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-ExtraBold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-ExtraBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-ExtraBold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-ExtraBold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-ExtraBold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-ExtraBold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-ExtraBold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Medium.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-Medium.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-Medium.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-Medium.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-Regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-Regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-Regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-SemiBold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-SemiBold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-SemiBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-SemiBold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-SemiBold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-SemiBold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Orbitron-SemiBold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Orbitron-SemiBold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/REEJI-BigYoungGB20-Flash-Bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/REEJI-BigYoungGB20-Flash-Bold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/REEJI-BigYoungGB20-Flash-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/REEJI-BigYoungGB20-Flash-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/REEJI-BigYoungGB20-Flash-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/REEJI-BigYoungGB20-Flash-Bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/REEJI-BigYoungGB20-Flash-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/REEJI-BigYoungGB20-Flash-Bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/REEJI-BigYoungGB20-Flash-Medium.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/REEJI-BigYoungGB20-Flash-Medium.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/REEJI-BigYoungGB20-Flash-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/REEJI-BigYoungGB20-Flash-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/REEJI-BigYoungGB20-Flash-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/REEJI-BigYoungGB20-Flash-Medium.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/REEJI-BigYoungGB20-Flash-Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/REEJI-BigYoungGB20-Flash-Medium.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starsector_ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/legacy/starsector_ui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starsector_ui.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/legacy/starsector_ui.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starsector_ui.less" beforeDir="false" afterPath="$PROJECT_DIR$/legacy/starsector_ui.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/color.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/color.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/starsector.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/starsector.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/text.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/util.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,8 +101,16 @@
       <workItem from="1626024315007" duration="6575000" />
       <workItem from="1626780051697" duration="4055000" />
       <workItem from="1626789145573" duration="3000" />
-      <workItem from="1626789166413" duration="3234000" />
+      <workItem from="1626789166413" duration="8537000" />
     </task>
+    <task id="LOCAL-00001" summary="Using webpack for LESS compiling and css postprocess;&#10;Separate different modules to different less files;&#10;Updated web fonts definition;&#10;Re-write ss-button classes with clip-path;&#10;Added color variables based on status (success, danger...).">
+      <created>1626792904780</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626792904780</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +127,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Using webpack for LESS compiling and css postprocess;&#10;Separate different modules to different less files;&#10;Updated web fonts definition;&#10;Re-write ss-button classes with clip-path;&#10;Added color variables based on status (success, danger...)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Using webpack for LESS compiling and css postprocess;&#10;Separate different modules to different less files;&#10;Updated web fonts definition;&#10;Re-write ss-button classes with clip-path;&#10;Added color variables based on status (success, danger...)." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
