@@ -1,0 +1,1312 @@
+/*!***********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/fonts/fonts.css ***!
+  \***********************************************************************/
+/*
+    Web Font definitions for Starsector fonts
+    Note: Put the Orbitron font before the Reeji-BigYoung in font-family names
+    Author: jn_xyp (jinan.xyp@gmail.com)
+*/
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url(assets/fonts/456eeb2221a76f86c9861fc0ec8c52ae.eot);
+    src: local('Orbitron Black'), local('Orbitron-Black'),
+    url(assets/fonts/456eeb2221a76f86c9861fc0ec8c52ae.eot?#iefix) format('embedded-opentype'),
+    url(assets/fonts/cfae6cfd7b19043d3a4d903a11d1490f.woff2) format('woff2'),
+    url(assets/fonts/7944875c62d54ed7c8204ea86b6871e7.woff) format('woff'),
+    url(assets/fonts/f9a6673ae0280f4a2b0109b4295ff705.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url(assets/fonts/68e9fa6d82ad9ed8a61f132c691d83c7.eot);
+    src: local('Orbitron Bold'), local('Orbitron-Bold'),
+    url(assets/fonts/68e9fa6d82ad9ed8a61f132c691d83c7.eot?#iefix) format('embedded-opentype'),
+    url(assets/fonts/f25ae2a6d07502274daddc37fdb546ba.woff2) format('woff2'),
+    url(assets/fonts/fadbaf5be74fe79fa97307c599acb808.woff) format('woff'),
+    url(assets/fonts/0f25cbe9fb7c1c1d80bbc3df9c361ff2.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url(assets/fonts/6f0ec779085c874ac94b90e98afe7c63.eot);
+    src: local('Orbitron ExtraBold'), local('Orbitron-ExtraBold'),
+    url(assets/fonts/6f0ec779085c874ac94b90e98afe7c63.eot?#iefix) format('embedded-opentype'),
+    url(assets/fonts/d479570648cb6cd137deaf9fba6f7f08.woff2) format('woff2'),
+    url(assets/fonts/fc3c50993b97add0310f70c733d5ccf9.woff) format('woff'),
+    url(assets/fonts/656d22b105f52547cbe1e83d696f6667.ttf) format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url(assets/fonts/eb7c07d71c32b7c65713630c07da23f2.eot);
+    src: local('Orbitron Medium'), local('Orbitron-Medium'),
+    url(assets/fonts/eb7c07d71c32b7c65713630c07da23f2.eot?#iefix) format('embedded-opentype'),
+    url(assets/fonts/a2fed4ffaae587af923d35fb058d8ba9.woff2) format('woff2'),
+    url(assets/fonts/d1141500e60c007eae9d70693491ddfe.woff) format('woff'),
+    url(assets/fonts/16e5a176201026106ce5c8916cd566f6.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url(assets/fonts/ef2b9ce55b565be23114ef233244e90b.eot);
+    src: local('Orbitron SemiBold'), local('Orbitron-SemiBold'),
+    url(assets/fonts/ef2b9ce55b565be23114ef233244e90b.eot?#iefix) format('embedded-opentype'),
+    url(assets/fonts/169ac8b5db15985b21de0c8c45d169c9.woff2) format('woff2'),
+    url(assets/fonts/bb2a4de3f299173a7bafb9a4b35b983a.woff) format('woff'),
+    url(assets/fonts/b53c3db480d9a8cb26cdd8b4bb63b47f.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url(assets/fonts/b7262c367a88ed1187e8b93dfeef7964.eot);
+    src: local('Orbitron Regular'), local('Orbitron-Regular'),
+    url(assets/fonts/b7262c367a88ed1187e8b93dfeef7964.eot?#iefix) format('embedded-opentype'),
+    url(assets/fonts/985e874cf033dc6dcc15f1196d81f289.woff2) format('woff2'),
+    url(assets/fonts/77fc6455c9727f81fd618d5b5b98dfd7.woff) format('woff'),
+    url(assets/fonts/02feb583bb5a720ede1e75ae81cdc2b6.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'REEJI-BigYoung';
+    src: url(assets/fonts/2036f1001617e876279abe5ea3f85597.eot);
+    src: local('REEJI-BigYoungGB2.0-Flash Medium'), local('REEJI-BigYoungGB2.0-Flash-Medium'),
+    url(assets/fonts/2036f1001617e876279abe5ea3f85597.eot?#iefix) format('embedded-opentype'),
+    url(assets/fonts/9a3de5b0af249b6f40573213cbbb9c33.woff2) format('woff2'),
+    url(assets/fonts/b0404b0b4ab72a6e508ba3056bf7c6a6.woff) format('woff'),
+    url(assets/fonts/ecaae818bbf1e5afb65eb319889bfcb2.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'REEJI-BigYoung';
+    src: url(assets/fonts/ea487ef4c67050a5dbd00dd5d54da607.eot);
+    src: local('REEJI-BigYoungGB2.0-Flash Bold'), local('REEJI-BigYoungGB2.0-Flash-Bold'),
+    url(assets/fonts/ea487ef4c67050a5dbd00dd5d54da607.eot?#iefix) format('embedded-opentype'),
+    url(assets/fonts/d230678088e7d5bd1bd2c8ae3504af8d.woff2) format('woff2'),
+    url(assets/fonts/6e7bd55331599030f9d62aa301c3047f.woff) format('woff'),
+    url(assets/fonts/71fda522acbdc2ab80b8023ba50fb16e.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*!********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/starsector.less ***!
+  \********************************************************************************************************************************************************/
+@charset "utf-8";
+.ss-reboot {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+.ss-reboot *,
+.ss-reboot *::before,
+.ss-reboot *::after {
+  box-sizing: border-box;
+}
+@-ms-viewport {
+  width: device-width;
+}
+.ss-reboot article,
+.ss-reboot aside,
+.ss-reboot figcaption,
+.ss-reboot figure,
+.ss-reboot footer,
+.ss-reboot header,
+.ss-reboot hgroup,
+.ss-reboot main,
+.ss-reboot nav,
+.ss-reboot section {
+  display: block;
+}
+.ss-reboot [tabindex="-1"]:focus {
+  outline: 0 !important;
+}
+.ss-reboot hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+.ss-reboot h1,
+.ss-reboot h2,
+.ss-reboot h3,
+.ss-reboot h4,
+.ss-reboot h5,
+.ss-reboot h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.ss-reboot p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.ss-reboot abbr[title],
+.ss-reboot abbr[data-original-title] {
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+  cursor: help;
+  border-bottom: 0;
+}
+.ss-reboot address {
+  margin-bottom: 1rem;
+  font-style: normal;
+  line-height: inherit;
+}
+.ss-reboot ol,
+.ss-reboot ul,
+.ss-reboot dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.ss-reboot ol ol,
+.ss-reboot ul ul,
+.ss-reboot ol ul,
+.ss-reboot ul ol {
+  margin-bottom: 0;
+}
+.ss-reboot dt {
+  font-weight: 700;
+}
+.ss-reboot dd {
+  margin-bottom: 0.5rem;
+  margin-left: 0;
+}
+.ss-reboot blockquote {
+  margin: 0 0 1rem;
+}
+.ss-reboot b,
+.ss-reboot strong {
+  font-weight: bolder;
+}
+.ss-reboot small {
+  font-size: 80%;
+}
+.ss-reboot sub,
+.ss-reboot sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+.ss-reboot sub {
+  bottom: -0.25em;
+}
+.ss-reboot sup {
+  top: -0.5em;
+}
+.ss-reboot a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+.ss-reboot a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+.ss-reboot a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+.ss-reboot a:not([href]):not([tabindex]):hover,
+.ss-reboot a:not([href]):not([tabindex]):focus {
+  color: inherit;
+  text-decoration: none;
+}
+.ss-reboot a:not([href]):not([tabindex]):focus {
+  outline: 0;
+}
+.ss-reboot pre,
+.ss-reboot code,
+.ss-reboot kbd,
+.ss-reboot samp {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 1em;
+}
+.ss-reboot pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+  -ms-overflow-style: scrollbar;
+}
+.ss-reboot figure {
+  margin: 0 0 1rem;
+}
+.ss-reboot img {
+  vertical-align: middle;
+  border-style: none;
+}
+.ss-reboot svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+.ss-reboot table {
+  border-collapse: collapse;
+}
+.ss-reboot caption {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: #6c757d;
+  text-align: left;
+  caption-side: bottom;
+}
+.ss-reboot th {
+  text-align: inherit;
+}
+.ss-reboot label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.ss-reboot button {
+  border-radius: 0;
+}
+.ss-reboot input,
+.ss-reboot button,
+.ss-reboot select,
+.ss-reboot optgroup,
+.ss-reboot textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.ss-reboot button,
+.ss-reboot input {
+  overflow: visible;
+}
+.ss-reboot button,
+.ss-reboot select {
+  text-transform: none;
+}
+.ss-reboot button,
+.ss-reboot [type="button"],
+.ss-reboot [type="reset"],
+.ss-reboot [type="submit"] {
+  -webkit-appearance: button;
+}
+.ss-reboot button::-moz-focus-inner,
+.ss-reboot [type="button"]::-moz-focus-inner,
+.ss-reboot [type="reset"]::-moz-focus-inner,
+.ss-reboot [type="submit"]::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+.ss-reboot button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+.ss-reboot input[type="radio"],
+.ss-reboot input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+.ss-reboot input[type="date"],
+.ss-reboot input[type="time"],
+.ss-reboot input[type="datetime-local"],
+.ss-reboot input[type="month"] {
+  -webkit-appearance: listbox;
+}
+.ss-reboot textarea {
+  overflow: auto;
+  resize: vertical;
+}
+.ss-reboot fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.ss-reboot legend {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  color: inherit;
+  white-space: normal;
+}
+.ss-reboot progress {
+  vertical-align: baseline;
+}
+.ss-reboot [type="number"]::-webkit-inner-spin-button,
+.ss-reboot [type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+.ss-reboot [type="search"] {
+  outline-offset: -2px;
+  -webkit-appearance: none;
+}
+.ss-reboot [type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+.ss-reboot ::-webkit-file-upload-button {
+  font: inherit;
+  -webkit-appearance: button;
+}
+.ss-reboot output {
+  display: inline-block;
+}
+.ss-reboot summary {
+  display: list-item;
+  cursor: pointer;
+}
+.ss-reboot template {
+  display: none;
+}
+.ss-reboot [hidden] {
+  display: none !important;
+}
+.ss-reboot .ss-font-ui {
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+}
+.ss-reboot .ss-font-text {
+  font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+}
+.ss-reboot .ss-font-normal {
+  font-weight: 400;
+}
+.ss-reboot .ss-font-bold {
+  font-weight: 700;
+}
+.ss-reboot .ss-transition-standard {
+  transition-duration: 150ms;
+}
+.ss-reboot .ss-transition-fast {
+  transition-duration: 50ms;
+}
+.ss-reboot .ss-hr {
+  border: none;
+  border-top: 1px solid #508597;
+}
+.ss-reboot .ss-caret {
+  caret-color: #A7DAFB;
+  caret-shape: underscore;
+}
+.ss-reboot .ss-button #common {
+  position: relative;
+  margin-right: 0.1rem;
+  margin-bottom: 0.1rem;
+  transition-duration: 150ms;
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #16515e;
+  color: #A7DAFB;
+  border: 0;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  outline: none;
+}
+.ss-reboot .ss-button #common:hover {
+  color: #f5f5f5;
+  filter: brightness(150%);
+  outline: none;
+}
+.ss-reboot .ss-button #common:active {
+  transition-duration: 50ms;
+  color: #f5f5f5;
+  filter: brightness(200%);
+  outline: none;
+}
+.ss-reboot .ss-button #size-big {
+  font-size: 1.5rem;
+}
+.ss-reboot .ss-button #size-small {
+  font-size: 0.75rem;
+}
+.ss-reboot .ss-button #shape-normal {
+  -webkit-clip-path: polygon(8px 0, calc(100% - 8px) 0%, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 0% calc(100% - 8px), 0% 8px);
+          clip-path: polygon(8px 0, calc(100% - 8px) 0%, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 0% calc(100% - 8px), 0% 8px);
+}
+.ss-reboot .ss-button #shape-tab {
+  -webkit-clip-path: polygon(8px 0, calc(100% - 8px) 0%, 100% 8px, 100% calc(100% - 0px), calc(100% - 0px) 100%, 0px 100%, 0% calc(100% - 0px), 0% 8px);
+          clip-path: polygon(8px 0, calc(100% - 8px) 0%, 100% 8px, 100% calc(100% - 0px), calc(100% - 0px) 100%, 0px 100%, 0% calc(100% - 0px), 0% 8px);
+}
+.ss-reboot .ss-button #shape-diagonal {
+  -webkit-clip-path: polygon(8px 0, calc(100% - 0px) 0%, 100% 0px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0px 100%, 0% calc(100% - 0px), 0% 8px);
+          clip-path: polygon(8px 0, calc(100% - 0px) 0%, 100% 0px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0px 100%, 0% calc(100% - 0px), 0% 8px);
+}
+.ss-reboot .ss-button-menu {
+  position: relative;
+  margin-right: 0.1rem;
+  margin-bottom: 0.1rem;
+  transition-duration: 150ms;
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #16515e;
+  color: #A7DAFB;
+  border: 0;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  outline: none;
+  -webkit-clip-path: polygon(8px 0, calc(100% - 0px) 0%, 100% 0px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0px 100%, 0% calc(100% - 0px), 0% 8px);
+          clip-path: polygon(8px 0, calc(100% - 0px) 0%, 100% 0px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0px 100%, 0% calc(100% - 0px), 0% 8px);
+}
+.ss-reboot .ss-button-menu:hover {
+  color: #f5f5f5;
+  filter: brightness(150%);
+  outline: none;
+}
+.ss-reboot .ss-button-menu:active {
+  transition-duration: 50ms;
+  color: #f5f5f5;
+  filter: brightness(200%);
+  outline: none;
+}
+.ss-reboot .ss-button-menu-big {
+  position: relative;
+  margin-right: 0.1rem;
+  margin-bottom: 0.1rem;
+  transition-duration: 150ms;
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #16515e;
+  color: #A7DAFB;
+  border: 0;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  outline: none;
+  -webkit-clip-path: polygon(8px 0, calc(100% - 0px) 0%, 100% 0px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0px 100%, 0% calc(100% - 0px), 0% 8px);
+          clip-path: polygon(8px 0, calc(100% - 0px) 0%, 100% 0px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0px 100%, 0% calc(100% - 0px), 0% 8px);
+  font-size: 1.5rem;
+}
+.ss-reboot .ss-button-menu-big:hover {
+  color: #f5f5f5;
+  filter: brightness(150%);
+  outline: none;
+}
+.ss-reboot .ss-button-menu-big:active {
+  transition-duration: 50ms;
+  color: #f5f5f5;
+  filter: brightness(200%);
+  outline: none;
+}
+.ss-reboot .ss-button-menu-small {
+  position: relative;
+  margin-right: 0.1rem;
+  margin-bottom: 0.1rem;
+  transition-duration: 150ms;
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #16515e;
+  color: #A7DAFB;
+  border: 0;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  outline: none;
+  -webkit-clip-path: polygon(8px 0, calc(100% - 0px) 0%, 100% 0px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0px 100%, 0% calc(100% - 0px), 0% 8px);
+          clip-path: polygon(8px 0, calc(100% - 0px) 0%, 100% 0px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0px 100%, 0% calc(100% - 0px), 0% 8px);
+  font-size: 0.75rem;
+}
+.ss-reboot .ss-button-menu-small:hover {
+  color: #f5f5f5;
+  filter: brightness(150%);
+  outline: none;
+}
+.ss-reboot .ss-button-menu-small:active {
+  transition-duration: 50ms;
+  color: #f5f5f5;
+  filter: brightness(200%);
+  outline: none;
+}
+.ss-reboot .ss-button-tab {
+  position: relative;
+  margin-right: 0.1rem;
+  margin-bottom: 0.1rem;
+  transition-duration: 150ms;
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #16515e;
+  color: #A7DAFB;
+  border: 0;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  outline: none;
+  -webkit-clip-path: polygon(8px 0, calc(100% - 8px) 0%, 100% 8px, 100% calc(100% - 0px), calc(100% - 0px) 100%, 0px 100%, 0% calc(100% - 0px), 0% 8px);
+          clip-path: polygon(8px 0, calc(100% - 8px) 0%, 100% 8px, 100% calc(100% - 0px), calc(100% - 0px) 100%, 0px 100%, 0% calc(100% - 0px), 0% 8px);
+}
+.ss-reboot .ss-button-tab:hover {
+  color: #f5f5f5;
+  filter: brightness(150%);
+  outline: none;
+}
+.ss-reboot .ss-button-tab:active {
+  transition-duration: 50ms;
+  color: #f5f5f5;
+  filter: brightness(200%);
+  outline: none;
+}
+.ss-reboot .ss-button-tab-big {
+  position: relative;
+  margin-right: 0.1rem;
+  margin-bottom: 0.1rem;
+  transition-duration: 150ms;
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #16515e;
+  color: #A7DAFB;
+  border: 0;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  outline: none;
+  -webkit-clip-path: polygon(8px 0, calc(100% - 0px) 0%, 100% 0px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0px 100%, 0% calc(100% - 0px), 0% 8px);
+          clip-path: polygon(8px 0, calc(100% - 0px) 0%, 100% 0px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0px 100%, 0% calc(100% - 0px), 0% 8px);
+  font-size: 1.5rem;
+}
+.ss-reboot .ss-button-tab-big:hover {
+  color: #f5f5f5;
+  filter: brightness(150%);
+  outline: none;
+}
+.ss-reboot .ss-button-tab-big:active {
+  transition-duration: 50ms;
+  color: #f5f5f5;
+  filter: brightness(200%);
+  outline: none;
+}
+.ss-reboot .ss-button-tab-small {
+  position: relative;
+  margin-right: 0.1rem;
+  margin-bottom: 0.1rem;
+  transition-duration: 150ms;
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #16515e;
+  color: #A7DAFB;
+  border: 0;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  outline: none;
+  -webkit-clip-path: polygon(8px 0, calc(100% - 0px) 0%, 100% 0px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0px 100%, 0% calc(100% - 0px), 0% 8px);
+          clip-path: polygon(8px 0, calc(100% - 0px) 0%, 100% 0px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0px 100%, 0% calc(100% - 0px), 0% 8px);
+  font-size: 0.75rem;
+}
+.ss-reboot .ss-button-tab-small:hover {
+  color: #f5f5f5;
+  filter: brightness(150%);
+  outline: none;
+}
+.ss-reboot .ss-button-tab-small:active {
+  transition-duration: 50ms;
+  color: #f5f5f5;
+  filter: brightness(200%);
+  outline: none;
+}
+.ss-reboot .ss-button-regular {
+  position: relative;
+  margin-right: 0.1rem;
+  margin-bottom: 0.1rem;
+  transition-duration: 150ms;
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #16515e;
+  color: #A7DAFB;
+  border: 0;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  outline: none;
+  -webkit-clip-path: polygon(8px 0, calc(100% - 8px) 0%, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 0% calc(100% - 8px), 0% 8px);
+          clip-path: polygon(8px 0, calc(100% - 8px) 0%, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 0% calc(100% - 8px), 0% 8px);
+}
+.ss-reboot .ss-button-regular:hover {
+  color: #f5f5f5;
+  filter: brightness(150%);
+  outline: none;
+}
+.ss-reboot .ss-button-regular:active {
+  transition-duration: 50ms;
+  color: #f5f5f5;
+  filter: brightness(200%);
+  outline: none;
+}
+.ss-reboot .ss-button-regular-big {
+  position: relative;
+  margin-right: 0.1rem;
+  margin-bottom: 0.1rem;
+  transition-duration: 150ms;
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #16515e;
+  color: #A7DAFB;
+  border: 0;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  outline: none;
+  -webkit-clip-path: polygon(8px 0, calc(100% - 8px) 0%, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 0% calc(100% - 8px), 0% 8px);
+          clip-path: polygon(8px 0, calc(100% - 8px) 0%, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 0% calc(100% - 8px), 0% 8px);
+  font-size: 1.5rem;
+}
+.ss-reboot .ss-button-regular-big:hover {
+  color: #f5f5f5;
+  filter: brightness(150%);
+  outline: none;
+}
+.ss-reboot .ss-button-regular-big:active {
+  transition-duration: 50ms;
+  color: #f5f5f5;
+  filter: brightness(200%);
+  outline: none;
+}
+.ss-reboot .ss-button-regular-small {
+  position: relative;
+  margin-right: 0.1rem;
+  margin-bottom: 0.1rem;
+  transition-duration: 150ms;
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #16515e;
+  color: #A7DAFB;
+  border: 0;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  outline: none;
+  -webkit-clip-path: polygon(8px 0, calc(100% - 8px) 0%, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 0% calc(100% - 8px), 0% 8px);
+          clip-path: polygon(8px 0, calc(100% - 8px) 0%, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 0% calc(100% - 8px), 0% 8px);
+  font-size: 0.75rem;
+}
+.ss-reboot .ss-button-regular-small:hover {
+  color: #f5f5f5;
+  filter: brightness(150%);
+  outline: none;
+}
+.ss-reboot .ss-button-regular-small:active {
+  transition-duration: 50ms;
+  color: #f5f5f5;
+  filter: brightness(200%);
+  outline: none;
+}
+.ss-reboot .ss-text-shadow {
+  text-shadow: 0.03em 0.03em 0.03em #000;
+}
+.ss-reboot .ss-text-regular {
+  font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  font-weight: 400;
+  color: #f5f5f5;
+}
+.ss-reboot .ss-text-display {
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  font-weight: 700;
+  color: #1174ff;
+  -webkit-text-stroke: 0.01em #82f8ff;
+  background: linear-gradient(#1174ff, #42d9ff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  filter: drop-shadow(0 -0.05em 0.04em #012ce2);
+}
+.ss-reboot .ss-text-display #warped {
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  font-weight: 700;
+  color: #1174ff;
+  -webkit-text-stroke: 0.01em #82f8ff;
+  background: linear-gradient(#1174ff, #42d9ff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  filter: drop-shadow(0 -0.05em 0.04em #012ce2);
+}
+.ss-reboot .ss-text-display-1 {
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  font-weight: 700;
+  color: #1174ff;
+  -webkit-text-stroke: 0.01em #82f8ff;
+  background: linear-gradient(#1174ff, #42d9ff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  filter: drop-shadow(0 -0.05em 0.04em #012ce2);
+  font-size: 5rem;
+}
+.ss-reboot .ss-text-display-2 {
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  font-weight: 700;
+  color: #1174ff;
+  -webkit-text-stroke: 0.01em #82f8ff;
+  background: linear-gradient(#1174ff, #42d9ff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  filter: drop-shadow(0 -0.05em 0.04em #012ce2);
+  font-size: 4.5rem;
+}
+.ss-reboot .ss-text-display-3 {
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  font-weight: 700;
+  color: #1174ff;
+  -webkit-text-stroke: 0.01em #82f8ff;
+  background: linear-gradient(#1174ff, #42d9ff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  filter: drop-shadow(0 -0.05em 0.04em #012ce2);
+  font-size: 3.7rem;
+}
+.ss-reboot .ss-text-display-4 {
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  font-weight: 700;
+  color: #1174ff;
+  -webkit-text-stroke: 0.01em #82f8ff;
+  background: linear-gradient(#1174ff, #42d9ff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  filter: drop-shadow(0 -0.05em 0.04em #012ce2);
+  font-size: 3rem;
+}
+.ss-reboot .ss-text-header {
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  color: #A7DAFB;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.ss-reboot .ss-text-header #warped {
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  color: #A7DAFB;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.ss-reboot .ss-text-header-1 {
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  color: #A7DAFB;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 3rem;
+}
+.ss-reboot .ss-text-header-2 {
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  color: #A7DAFB;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+}
+.ss-reboot .ss-text-header-3 {
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  color: #A7DAFB;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+.ss-reboot .ss-text-header-4 {
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  color: #A7DAFB;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+.ss-reboot .ss-text-header-5 {
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  color: #A7DAFB;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+.ss-reboot .ss-text-header-6 {
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  color: #A7DAFB;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+.ss-reboot table.ss-table {
+  margin-right: 0.1rem;
+  margin-bottom: 0.1rem;
+  font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  display: block;
+  overflow: auto;
+}
+.ss-reboot table.ss-table td,
+.ss-reboot table.ss-table th {
+  padding: 0.1em 0.7em 0.1em 0.7em;
+}
+.ss-reboot table.ss-table th {
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-align: center;
+  font-weight: 600;
+  background: #16515e;
+  color: #A7DAFB;
+}
+.ss-reboot table.ss-table td {
+  background-color: #A7DAFB;
+}
+.ss-reboot table.ss-table td:hover {
+  background: #508597;
+  color: #f5f5f5;
+  transition-duration: 150ms;
+}
+.ss-reboot .ss-scrollbar #warped::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.ss-reboot .ss-scrollbar #warped::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+.ss-reboot .ss-scrollbar #warped::-webkit-scrollbar-thumb {
+  border-radius: calc(0.4rem / 2);
+  background: #508597;
+}
+.ss-reboot .ss-scrollbar #warped::-webkit-scrollbar-thumb:hover {
+  background: #A7DAFB;
+}
+.ss-reboot .ss-scrollbar #warped ::-webkit-scrollbar-corner {
+  background: transparent;
+}
+.ss-reboot .ss-scrollbar::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.ss-reboot .ss-scrollbar::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+.ss-reboot .ss-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: calc(0.4rem / 2);
+  background: #508597;
+}
+.ss-reboot .ss-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #A7DAFB;
+}
+.ss-reboot .ss-scrollbar ::-webkit-scrollbar-corner {
+  background: transparent;
+}
+.ss-reboot .ss-scrollbar::-webkit-scrollbar-track:horizontal {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, #16515e 40%, #16515e 60%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+}
+.ss-reboot .ss-scrollbar::-webkit-scrollbar-track:vertical {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, #16515e 40%, #16515e 60%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+}
+.ss-reboot .ss-scrollbar-darkcyan_bg #warped::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.ss-reboot .ss-scrollbar-darkcyan_bg #warped::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+.ss-reboot .ss-scrollbar-darkcyan_bg #warped::-webkit-scrollbar-thumb {
+  border-radius: calc(0.4rem / 2);
+  background: #508597;
+}
+.ss-reboot .ss-scrollbar-darkcyan_bg #warped::-webkit-scrollbar-thumb:hover {
+  background: #A7DAFB;
+}
+.ss-reboot .ss-scrollbar-darkcyan_bg #warped ::-webkit-scrollbar-corner {
+  background: transparent;
+}
+.ss-reboot .ss-scrollbar-darkcyan_bg::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.ss-reboot .ss-scrollbar-darkcyan_bg::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+.ss-reboot .ss-scrollbar-darkcyan_bg::-webkit-scrollbar-thumb {
+  border-radius: calc(0.4rem / 2);
+  background: #508597;
+}
+.ss-reboot .ss-scrollbar-darkcyan_bg::-webkit-scrollbar-thumb:hover {
+  background: #A7DAFB;
+}
+.ss-reboot .ss-scrollbar-darkcyan_bg ::-webkit-scrollbar-corner {
+  background: transparent;
+}
+.ss-reboot .ss-scrollbar-darkcyan_bg::-webkit-scrollbar-track:horizontal {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, #16515e 40%, #16515e 60%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+}
+.ss-reboot .ss-scrollbar-darkcyan_bg::-webkit-scrollbar-track:vertical {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, #16515e 40%, #16515e 60%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+}
+.ss-reboot .ss-scrollbar-darkcyan_bg::-webkit-scrollbar-track:horizontal {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, #508597 40%, #508597 60%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+}
+.ss-reboot .ss-scrollbar-darkcyan_bg::-webkit-scrollbar-track:vertical {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, #508597 40%, #508597 60%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+}
+.ss-reboot .ss-scrollbar-darkcyan_bg::-webkit-scrollbar-thumb {
+  background: #6a9eb0;
+}
+.ss-reboot .ss-textarea {
+  caret-color: #A7DAFB;
+  caret-shape: underscore;
+  font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  font-weight: 400;
+  color: #f5f5f5;
+  background-color: #16515e;
+  border: 1px solid #508597;
+}
+.ss-reboot .ss-textarea:focus {
+  background-color: #185866;
+  border: 1px solid #A7DAFB;
+  outline: none;
+}
+.ss-reboot .ss-textarea #warped::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.ss-reboot .ss-textarea #warped::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+.ss-reboot .ss-textarea #warped::-webkit-scrollbar-thumb {
+  border-radius: calc(0.4rem / 2);
+  background: #508597;
+}
+.ss-reboot .ss-textarea #warped::-webkit-scrollbar-thumb:hover {
+  background: #A7DAFB;
+}
+.ss-reboot .ss-textarea #warped ::-webkit-scrollbar-corner {
+  background: transparent;
+}
+.ss-reboot .ss-textarea::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.ss-reboot .ss-textarea::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+.ss-reboot .ss-textarea::-webkit-scrollbar-thumb {
+  border-radius: calc(0.4rem / 2);
+  background: #508597;
+}
+.ss-reboot .ss-textarea::-webkit-scrollbar-thumb:hover {
+  background: #A7DAFB;
+}
+.ss-reboot .ss-textarea ::-webkit-scrollbar-corner {
+  background: transparent;
+}
+.ss-reboot .ss-textarea::-webkit-scrollbar-track:horizontal {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, #16515e 40%, #16515e 60%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+}
+.ss-reboot .ss-textarea::-webkit-scrollbar-track:vertical {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, #16515e 40%, #16515e 60%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+}
+.ss-reboot .ss-textarea::-webkit-scrollbar-track:horizontal {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, #508597 40%, #508597 60%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+}
+.ss-reboot .ss-textarea::-webkit-scrollbar-track:vertical {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, #508597 40%, #508597 60%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+}
+.ss-reboot .ss-textarea::-webkit-scrollbar-thumb {
+  background: #6a9eb0;
+}
+.ss-reboot .ss-checkbox {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 0.95em;
+  height: 0.95em;
+  vertical-align: top;
+  margin-top: 0.3em;
+  margin-left: 0.25em;
+  margin-right: 0.2em;
+  border-radius: 0.15em;
+  background-color: #2d1c18;
+  box-shadow: inset 0 0 0.025em 0.05em #000, inset 0 0 0 0.15em #814f44, 0 0 0.0625em 0.095em #cccccc;
+}
+.ss-reboot .ss-checkbox:hover,
+.ss-reboot .ss-checkbox:focus,
+.ss-reboot .ss-checkbox:active {
+  filter: brightness(120%);
+}
+.ss-reboot .ss-checkbox:checked {
+  background-color: #42d9ff;
+  box-shadow: inset 0 0 0.03em 0.05em #000, inset 0 0 0 0.15em #00afdb, inset 0 0 0.05em 0.16em #000, 0 0 0.0625em 0.095em #cccccc;
+}
+.ss-reboot .ss-list-group {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+.ss-reboot .ss-list-group #item-mixin {
+  list-style: none;
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  background: #16515e;
+  color: #A7DAFB;
+  padding: 0.2em 0.7em 0.2em 0.7em;
+  margin-bottom: 0.2em;
+  line-height: 1em;
+}
+.ss-reboot .ss-list-group-item {
+  list-style: none;
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  background: #16515e;
+  color: #A7DAFB;
+  padding: 0.2em 0.7em 0.2em 0.7em;
+  margin-bottom: 0.2em;
+  line-height: 1em;
+}
+.ss-reboot .ss-list-group-item-action {
+  list-style: none;
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  text-shadow: 0.03em 0.03em 0.03em #000;
+  background: #16515e;
+  color: #A7DAFB;
+  padding: 0.2em 0.7em 0.2em 0.7em;
+  margin-bottom: 0.2em;
+  line-height: 1em;
+  transition-duration: 150ms;
+}
+.ss-reboot .ss-list-group-item-action:hover:not(.ss-list-group-item-disabled) {
+  color: #f5f5f5;
+  filter: brightness(150%);
+  outline: none;
+}
+.ss-reboot .ss-list-group-item-action:active:not(.ss-list-group-item-disabled) {
+  transition-duration: 50ms;
+  color: #f5f5f5;
+  filter: brightness(200%);
+  outline: none;
+}
+.ss-reboot .ss-list-group-item-active {
+  color: #f5f5f5;
+  filter: brightness(150%);
+  outline: none;
+}
+.ss-reboot .ss-list-group-item-disabled {
+  filter: saturate(50%);
+  outline: none;
+}
+.ss-reboot .ss-foreground-glowblue,
+.ss-reboot .ss-fg-glowblue {
+  color: #82f8ff;
+}
+.ss-reboot .ss-foreground-lightblue,
+.ss-reboot .ss-fg-lightblue {
+  color: #42d9ff;
+}
+.ss-reboot .ss-foreground-darkblue,
+.ss-reboot .ss-fg-darkblue {
+  color: #1174ff;
+}
+.ss-reboot .ss-foreground-shadowblue,
+.ss-reboot .ss-fg-shadowblue {
+  color: #012ce2;
+}
+.ss-reboot .ss-foreground-black,
+.ss-reboot .ss-fg-black {
+  color: #000;
+}
+.ss-reboot .ss-foreground-brown,
+.ss-reboot .ss-fg-brown {
+  color: #b68175;
+}
+.ss-reboot .ss-foreground-grey,
+.ss-reboot .ss-fg-grey {
+  color: #999999;
+}
+.ss-reboot .ss-foreground-white,
+.ss-reboot .ss-fg-white {
+  color: #f5f5f5;
+}
+.ss-reboot .ss-foreground-green,
+.ss-reboot .ss-fg-green {
+  color: #00CD92;
+}
+.ss-reboot .ss-foreground-lime,
+.ss-reboot .ss-fg-lime {
+  color: #8fc138;
+}
+.ss-reboot .ss-foreground-yellow,
+.ss-reboot .ss-fg-yellow {
+  color: #eecc11;
+}
+.ss-reboot .ss-foreground-orange,
+.ss-reboot .ss-fg-orange {
+  color: #ff8811;
+}
+.ss-reboot .ss-foreground-red,
+.ss-reboot .ss-fg-red {
+  color: #ff0000;
+}
+.ss-reboot .ss-foreground-darkcyan,
+.ss-reboot .ss-fg-darkcyan {
+  color: #16515e;
+}
+.ss-reboot .ss-foreground-cyan,
+.ss-reboot .ss-fg-cyan {
+  color: #508597;
+}
+.ss-reboot .ss-foreground-lightcyan,
+.ss-reboot .ss-fg-lightcyan {
+  color: #A7DAFB;
+}
+.ss-reboot .ss-foreground-portage,
+.ss-reboot .ss-fg-portage {
+  color: #8597D1;
+}
+.ss-reboot .ss-foreground-darkred,
+.ss-reboot .ss-fg-darkred {
+  color: #6f0404;
+}
+.ss-reboot .ss-foreground-primary,
+.ss-reboot .ss-fg-primary {
+  color: #16515e;
+}
+.ss-reboot .ss-foreground-secondary,
+.ss-reboot .ss-fg-secondary {
+  color: #508597;
+}
+.ss-reboot .ss-foreground-success,
+.ss-reboot .ss-fg-success {
+  color: #8fc138;
+}
+.ss-reboot .ss-foreground-warning,
+.ss-reboot .ss-fg-warning {
+  color: #eecc11;
+}
+.ss-reboot .ss-foreground-danger,
+.ss-reboot .ss-fg-danger {
+  color: #ff0000;
+}
+.ss-reboot .ss-foreground-info,
+.ss-reboot .ss-fg-info {
+  color: #42d9ff;
+}
+.ss-reboot .ss-background-glowblue,
+.ss-reboot .ss-bg-glowblue {
+  background-color: #82f8ff;
+}
+.ss-reboot .ss-background-lightblue,
+.ss-reboot .ss-bg-lightblue {
+  background-color: #42d9ff;
+}
+.ss-reboot .ss-background-darkblue,
+.ss-reboot .ss-bg-darkblue {
+  background-color: #1174ff;
+}
+.ss-reboot .ss-background-shadowblue,
+.ss-reboot .ss-bg-shadowblue {
+  background-color: #012ce2;
+}
+.ss-reboot .ss-background-black,
+.ss-reboot .ss-bg-black {
+  background-color: #000;
+}
+.ss-reboot .ss-background-brown,
+.ss-reboot .ss-bg-brown {
+  background-color: #b68175;
+}
+.ss-reboot .ss-background-grey,
+.ss-reboot .ss-bg-grey {
+  background-color: #999999;
+}
+.ss-reboot .ss-background-white,
+.ss-reboot .ss-bg-white {
+  background-color: #f5f5f5;
+}
+.ss-reboot .ss-background-green,
+.ss-reboot .ss-bg-green {
+  background-color: #00CD92;
+}
+.ss-reboot .ss-background-lime,
+.ss-reboot .ss-bg-lime {
+  background-color: #8fc138;
+}
+.ss-reboot .ss-background-yellow,
+.ss-reboot .ss-bg-yellow {
+  background-color: #eecc11;
+}
+.ss-reboot .ss-background-orange,
+.ss-reboot .ss-bg-orange {
+  background-color: #ff8811;
+}
+.ss-reboot .ss-background-red,
+.ss-reboot .ss-bg-red {
+  background-color: #ff0000;
+}
+.ss-reboot .ss-background-darkcyan,
+.ss-reboot .ss-bg-darkcyan {
+  background-color: #16515e;
+}
+.ss-reboot .ss-background-cyan,
+.ss-reboot .ss-bg-cyan {
+  background-color: #508597;
+}
+.ss-reboot .ss-background-lightcyan,
+.ss-reboot .ss-bg-lightcyan {
+  background-color: #A7DAFB;
+}
+.ss-reboot .ss-background-portage,
+.ss-reboot .ss-bg-portage {
+  background-color: #8597D1;
+}
+.ss-reboot .ss-background-darkred,
+.ss-reboot .ss-bg-darkred {
+  background-color: #6f0404;
+}
+.ss-reboot .ss-background-primary,
+.ss-reboot .ss-bg-primary {
+  background-color: #16515e;
+}
+.ss-reboot .ss-background-secondary,
+.ss-reboot .ss-bg-secondary {
+  background-color: #508597;
+}
+.ss-reboot .ss-background-success,
+.ss-reboot .ss-bg-success {
+  background-color: #8fc138;
+}
+.ss-reboot .ss-background-warning,
+.ss-reboot .ss-bg-warning {
+  background-color: #eecc11;
+}
+.ss-reboot .ss-background-danger,
+.ss-reboot .ss-bg-danger {
+  background-color: #ff0000;
+}
+.ss-reboot .ss-background-info,
+.ss-reboot .ss-bg-info {
+  background-color: #42d9ff;
+}
+
+
+/*# sourceMappingURL=ss_css.css.map*/

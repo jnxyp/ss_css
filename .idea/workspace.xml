@@ -4,26 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9213a936-e6b3-4dcb-b6d1-63fcee1de6a6" name="Default Changelist" comment="Using webpack for LESS compiling and css postprocess;&#10;Separate different modules to different less files;&#10;Updated web fonts definition;&#10;Re-write ss-button classes with clip-path;&#10;Added color variables based on status (success, danger...).">
-      <change afterPath="$PROJECT_DIR$/src/components/checkbox.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/listgroup.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reboot/reboot.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables.less" afterDir="false" />
+    <list default="true" id="9213a936-e6b3-4dcb-b6d1-63fcee1de6a6" name="Default Changelist" comment="Added global prefix options to choose if to apply reboot on whole site&#10;Added List Group component&#10;Improved demo page layout, added ToC">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/webpack.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/color.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/color.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/color_classes.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/color_classes.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cornershape.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/cornershape.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/font.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/font.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reboot.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scrollbar.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/scrollbar.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/starsector.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/starsector.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/table.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/text.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/textarea.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/textarea.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/util.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +57,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.elm.workspace.PROJECT_DISCOVERY" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">
@@ -144,6 +128,7 @@
       <workItem from="1629697859745" duration="598000" />
       <workItem from="1630403703786" duration="8000" />
       <workItem from="1635244058070" duration="9249000" />
+      <workItem from="1635254856650" duration="881000" />
     </task>
     <task id="LOCAL-00001" summary="Using webpack for LESS compiling and css postprocess;&#10;Separate different modules to different less files;&#10;Updated web fonts definition;&#10;Re-write ss-button classes with clip-path;&#10;Added color variables based on status (success, danger...).">
       <created>1626792904780</created>
@@ -152,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626792904780</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added global prefix options to choose if to apply reboot on whole site&#10;Added List Group component&#10;Improved demo page layout, added ToC">
+      <created>1635255049178</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635255049178</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +164,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Using webpack for LESS compiling and css postprocess;&#10;Separate different modules to different less files;&#10;Updated web fonts definition;&#10;Re-write ss-button classes with clip-path;&#10;Added color variables based on status (success, danger...)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Using webpack for LESS compiling and css postprocess;&#10;Separate different modules to different less files;&#10;Updated web fonts definition;&#10;Re-write ss-button classes with clip-path;&#10;Added color variables based on status (success, danger...)." />
+    <MESSAGE value="Added global prefix options to choose if to apply reboot on whole site&#10;Added List Group component&#10;Improved demo page layout, added ToC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added global prefix options to choose if to apply reboot on whole site&#10;Added List Group component&#10;Improved demo page layout, added ToC" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
