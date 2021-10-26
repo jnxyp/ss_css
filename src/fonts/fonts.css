@@ -25,7 +25,7 @@
     url('Orbitron-Bold.woff2') format('woff2'),
     url('Orbitron-Bold.woff') format('woff'),
     url('Orbitron-Bold.ttf') format('truetype');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
@@ -38,7 +38,7 @@
     url('Orbitron-ExtraBold.woff2') format('woff2'),
     url('Orbitron-ExtraBold.woff') format('woff'),
     url('Orbitron-ExtraBold.ttf') format('truetype');
-    font-weight: bold;
+    font-weight: 800;
     font-style: normal;
     font-display: swap;
 }
@@ -90,7 +90,7 @@
     url('REEJI-BigYoungGB20-Flash-Medium.woff2') format('woff2'),
     url('REEJI-BigYoungGB20-Flash-Medium.woff') format('woff'),
     url('REEJI-BigYoungGB20-Flash-Medium.ttf') format('truetype');
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
@@ -103,7 +103,7 @@
     url('REEJI-BigYoungGB20-Flash-Bold.woff2') format('woff2'),
     url('REEJI-BigYoungGB20-Flash-Bold.woff') format('woff'),
     url('REEJI-BigYoungGB20-Flash-Bold.ttf') format('truetype');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }

@@ -1,21 +1,24 @@
-@import "color";
-@import "font";
-@import "util";
+@import "../utility/color";
+@import "../utility/font";
+@import "../utility/util";
+@import "../components/text";
 
 
 table.ss-table {
-  margin-right: @ss-margin-right;
-  margin-bottom: @ss-margin-bottom;
-  .ss-font-regular();
+  margin-right: 0.1rem;
+  margin-bottom: 0.1rem;
+  .ss-font-text();
   display: block;
   overflow: auto;
 
   & td, th {
-    padding: 0.3em 0.3em;
+    padding: 0.1em 0.7em 0.1em 0.7em;
   }
 
   & th {
     .ss-font-ui();
+    .ss-text-shadow();
+    text-align: center;
     font-weight: 600;
     background: @ss-color-darkcyan;
     color: @ss-color-lightcyan;

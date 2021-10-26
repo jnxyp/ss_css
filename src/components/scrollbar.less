@@ -1,5 +1,5 @@
-@import "color";
-@import "cornershape";
+@import "../utility/color";
+@import "../utility/cornershape";
 
 .ss-scrollbar {
 
@@ -50,5 +50,9 @@
 
   &::-webkit-scrollbar-track:vertical {
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, @ss-color-cyan 40%, @ss-color-cyan 60%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: lighten(@ss-color-cyan, 10%);
   }
 }

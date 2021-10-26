@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <title>Starsector CSS Demo</title>
 </head>
-<body class="ss-scrollbar-y">
+<body class="ss-reboot">
 
 <style>
     body {
-        background:black;
-        color:#f5f5f5;
+        background: black !important;
+        color: #f5f5f5 !important;
+        padding: 1rem !important;
     }
 </style>
 
@@ -19,8 +20,24 @@
     <hr>
 </div>
 
-<!-- ss-text-display-* -->
 <div>
+    <h2>Available Components</h2>
+    <ul>
+        <li><a href="#demo-text-display">Title Text</a></li>
+        <li><a href="#demo-text-header">Header Text</a></li>
+        <li><a href="#demo-table">Table</a></li>
+        <li><a href="#demo-button">Button</a></li>
+        <li><a href="#demo-checkbox">Checkbox</a></li>
+        <li><a href="#demo-textarea">Textarea</a></li>
+        <li><a href="#demo-scrollbar">Scrollbar</a></li>
+        <li><a href="#demo-list-group">List Group</a></li>
+        <!-- <li><a href="#demo-panel">Panel</a></li>-->
+        <li><a href="#demo-hr">Horizontal Line</a></li>
+    </ul>
+</div>
+
+<!-- ss-text-display-* -->
+<div id="demo-text-display">
     <h2>ss-text-display[-[1~4]]</h2>
     <hr>
     <h1 class="ss-text-display-1">Starsector Chinese Forum</h1>
@@ -34,8 +51,8 @@
 </div>
 
 <!-- ss-text-header-* -->
-<div>
-    <h2>ss-text-header[-[1~6]]</h2>
+<div id="demo-text-header">
+    <h2>ss-text-header[-(1~6)]</h2>
     <hr>
     <h1 class="ss-text-header-1">Title 标题</h1>
     <h2 class="ss-text-header-2">Title 标题</h2>
@@ -46,7 +63,7 @@
 </div>
 
 <!-- ss-table -->
-<div>
+<div id="demo-table">
     <h2>ss-table</h2>
     <hr>
     <table class="ss-table">
@@ -82,11 +99,11 @@
 </div>
 
 <!-- ss-button-* -->
-<div>
+<div id="demo-button">
     <h2>ss-button-*</h2>
     <hr>
 
-    <h3>ss-button-menu[-[big|small]]</h3>
+    <h3>ss-button-menu[-(big|small)]</h3>
     <div>
         <button class="ss-button-menu">继续游戏</button>
         <button class="ss-button-menu">新手教程</button>
@@ -98,14 +115,14 @@
         <button class="ss-button-menu-small">弟弟！</button>
     </div>
 
-    <h3>ss-button-tab[-[big|small]]</h3>
+    <h3>ss-button-tab[-(big|small)]</h3>
     <div>
         <button class="ss-button-tab">网络信息(<u class="ss-fg-yellow">1</u>)</button>
         <button class="ss-button-tab">星球(<u class="ss-fg-yellow">2</u>)</button>
         <button class="ss-button-tab">技能(<u class="ss-fg-yellow">3</u>)</button>
     </div>
 
-    <h3>ss-button-regular[-[big|small]]</h3>
+    <h3>ss-button-regular[-(big|small)]</h3>
     <div>
         <button class="ss-button-regular">角色技能</button>
         <button class="ss-button-regular">舰队管理(<u class="ss-fg-yellow">F</u>)</button>
@@ -114,45 +131,44 @@
 </div>
 
 <!-- ss-checkbox-* -->
-<div>
+<div id="demo-checkbox">
     <h2>ss-checkbox-*</h2>
-    <small>⚠ Known mobile compatibility issues (checkbox positioning issues on mobile browsers)</small>
     <hr>
+    <h3>ss-checkbox</h3>
     <div>
-        <form class="ss-font-display">
+        <form>
             <label>
                 <input type="checkbox" class="ss-checkbox" value="A">
                 护卫舰
             </label>
             <br>
             <label>
-                <input type="checkbox" class="ss-checkbox" value="B">
+                <input type="checkbox" class="ss-checkbox" value="B" checked>
                 驱逐舰
             </label>
-            <br>
+        </form>
+    </div>
+    <h4>with ss-fg-lightcyan, ss-text-shadow and ss-font-ui</h4>
+    <div class="ss-text-shadow ss-fg-lightcyan ss-font-ui">
+        <form>
             <label>
-                <input type="checkbox" class="ss-checkbox" value="C" checked>
-                巡洋舰
+                <input type="checkbox" class="ss-checkbox" value="A">
+                护卫舰
             </label>
             <br>
             <label>
-                <input type="checkbox" class="ss-checkbox" value="D" checked>
-                主力舰
-            </label>
-            <br>
-            <label>
-                <input type="checkbox" class="ss-checkbox" value="E">
-                弟弟舰
+                <input type="checkbox" class="ss-checkbox" value="B" checked>
+                驱逐舰
             </label>
         </form>
     </div>
 </div>
 
 <!-- ss-textarea -->
-<div>
+<div id="demo-textarea">
     <h2>ss-textarea</h2>
     <hr>
-    <h3>vanilla</h3>
+    <h3><code>.ss-textarea</code></h3>
     <textarea class="ss-textarea" rows="4" cols="50">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -162,7 +178,7 @@
         dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
         non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </textarea>
-    <h3>...with .ss-scrollbar and .ss-text-shadow</h3>
+    <h4>...with <code>.ss-scrollbar</code> and <code>.ss-text-shadow</code></h4>
     <textarea class="ss-textarea ss-scrollbar ss-text-shadow ss-fg-lightcyan" rows="4" cols="50">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -175,14 +191,15 @@
 </div>
 
 
-
 <!-- ss-scrollbar(-*) -->
-<div>
+<div id="demo-scrollbar">
     <h2>ss-scrollbar</h2>
     <small>⚠ Known browser compatibility issues (available for webkit only)</small>
     <hr>
 
-    <textarea class="ss-scrollbar" style="overflow-x: scroll; white-space: nowrap" rows="4" cols="50">
+    <h3><code>.ss-scrollbar</code></h3>
+    <textarea class="ss-scrollbar" style="overflow-x: scroll; white-space: nowrap" rows="4"
+              cols="50">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </textarea>
     <br>
@@ -192,7 +209,8 @@
     </textarea>
     <br>
 
-    <textarea class="ss-scrollbar" style="overflow-y: scroll; white-space: nowrap" rows="4" cols="50">
+    <textarea class="ss-scrollbar" style="overflow-y: scroll; white-space: nowrap" rows="4"
+              cols="50">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna
         aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -203,28 +221,65 @@
     </textarea>
 </div>
 
-<!-- ss-panel-* -->
-<div>
-    <h2>ss-panel-*</h2>
+<!-- ss-list-group(-*) -->
+<div id="demo-list-group">
+    <h2>ss-list-group</h2>
     <hr>
+    <h3><code>.ss-list-group</code> with <code>.ss-list-group-item inside</code></h3>
+    <div style="width: 300px">
+        <ul class="ss-list-group">
+            <li class="ss-list-group-item">典范-级<br><small>钻石战列舰</small></li>
+            <li class="ss-list-group-item">攻势-级<br><small>大屁股主力舰</small></li>
+            <li class="ss-list-group-item">伯劳鸟-级<br><small>玻璃大炮</small></li>
+            <li class="ss-list-group-item">征服者-级<br><small>1.4</small></li>
+            <li class="ss-list-group-item">苍鹭-级<br><small>冲锋航母</small></li>
+            <li class="ss-list-group-item">压迫者-级<br><small>中槽驱逐舰</small></li>
+            <li class="ss-list-group-item">鹰头狮-级<br><small>社保巡洋舰</small></li>
+        </ul>
+    </div>
 
-    <h3>ss-panel-major</h3>
-    <div class="ss-panel-major" style="width: 50%; height:300px">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-        aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <h4>...with <code>.ss-list-group-item-action</code> and <code>.ss-list-group-item[-(active|disabled)]</code></h4>
+    <div style="width: 300px">
+        <ul class="ss-list-group">
+            .ss-list-group-item-active ↓
+            <li class="ss-list-group-item-action ss-list-group-item-active">典范-级<br><small>钻石战列舰</small></li>
+            .ss-list-group-item-disabled ↓
+            <li class="ss-list-group-item-action ss-list-group-item-disabled">攻势-级<br><small>大屁股主力舰</small></li>
+            <li class="ss-list-group-item-action">伯劳鸟-级<br><small>玻璃大炮</small></li>
+            <li class="ss-list-group-item-action">征服者-级<br><small>1.4</small></li>
+            <li class="ss-list-group-item-action">苍鹭-级<br><small>冲锋航母</small></li>
+            <li class="ss-list-group-item-action">压迫者-级<br><small>中槽驱逐舰</small></li>
+            <li class="ss-list-group-item-action">鹰头狮-级<br><small>社保巡洋舰</small></li>
+        </ul>
     </div>
 </div>
 
+<!-- ss-panel-* -->
+<!--<div id="demo-panel">-->
+<!--    <h2>ss-panel-*</h2>-->
+<!--    <hr>-->
+
+<!--    <h3>ss-panel-major</h3>-->
+<!--    <div class="ss-panel-major" style="width: 50%;">-->
+<!--        Lorem ipsum dolor sit amet, consectetur adipiscing elit,-->
+<!--        sed do eiusmod tempor incididunt ut labore et dolore magna-->
+<!--        aliqua. Ut enim ad minim veniam, quis nostrud exercitation-->
+<!--        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis-->
+<!--        aute irure dolor in reprehenderit in voluptate velit esse cillum-->
+<!--        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat-->
+<!--        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.-->
+<!--    </div>-->
+<!--</div>-->
+
 <!-- ss-hr -->
-<div>
+<div id="demo-hr">
     <h2>ss-hr</h2>
     Yep, this line below ↓
     <hr class="ss-hr">
+</div>
+
+<div style="height: 100vh">
+    Some extra spaces below
 </div>
 
 </body>

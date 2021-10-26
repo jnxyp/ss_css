@@ -1,19 +1,22 @@
-@import 'color';
-@import "font";
-@import 'cornershape';
+@import '../utility/color';
+@import "../utility/font";
+@import "../utility/util";
+@import '../utility/cornershape';
+@import "../components/text";
 
 @ss-button-padding: 3px;
+
 
 .ss-button {
   #common {
     position: relative;
-    margin-right: @ss-margin-right;
-    margin-bottom: @ss-margin-bottom;
+    margin-right: 0.1rem;
+    margin-bottom: 0.1rem;
     .ss-transition-standard();
     .ss-font-ui();
     .ss-text-shadow();
 
-    font-size: 1.5rem;
+    font-size: 1rem;
 
     font-weight: 600;
     background: @ss-color-darkcyan;
@@ -21,25 +24,28 @@
     border: 0;
     padding-left: 0.7em;
     padding-right: 0.7em;
+    outline: none;
 
     &:hover {
       color: @ss-color-white;
       filter: brightness(150%);
+      outline: none;
     }
 
     &:active {
       .ss-transition-fast();
       color: @ss-color-white;
       filter: brightness(200%);
+      outline: none;
     }
   }
 
   #size-big {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   #size-small {
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
 
   #shape-normal {
@@ -57,11 +63,13 @@
   &-menu {
     #common();
     #shape-diagonal();
+
     &-big {
       #common();
       #shape-diagonal();
       #size-big();
     }
+
     &-small {
       #common();
       #shape-diagonal();
@@ -72,11 +80,13 @@
   &-tab {
     #common();
     #shape-tab();
+
     &-big {
       #common();
       #shape-diagonal();
       #size-big();
     }
+
     &-small {
       #common();
       #shape-diagonal();
@@ -87,11 +97,13 @@
   &-regular {
     #common();
     #shape-normal();
+
     &-big {
       #common();
       #shape-normal();
       #size-big();
     }
+
     &-small {
       #common();
       #shape-normal();

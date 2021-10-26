@@ -1,0 +1,58 @@
+@import "../utility/color";
+@import "../utility/util";
+@import "../utility/font";
+@import "../components/text";
+
+.ss-list-group {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+
+  #item-mixin {
+    list-style: none;
+
+    .ss-font-ui();
+    .ss-text-shadow();
+
+    background: @ss-color-darkcyan;
+    color: @ss-color-lightcyan;
+
+    padding: 0.2em 0.7em 0.2em 0.7em;
+    margin-bottom: 0.2em;
+
+    line-height: 1em;
+  }
+
+  &-item {
+    #item-mixin();
+
+    &-action {
+      #item-mixin();
+      .ss-transition-standard();
+
+      &:hover:not(.ss-list-group-item-disabled){
+        color: @ss-color-white;
+        filter: brightness(150%);
+        outline: none;
+      }
+
+      &:active:not(.ss-list-group-item-disabled) {
+        .ss-transition-fast();
+        color: @ss-color-white;
+        filter: brightness(200%);
+        outline: none;
+      }
+    }
+
+    &-active {
+      color: @ss-color-white;
+      filter: brightness(150%);
+      outline: none;
+    }
+
+    &-disabled {
+      filter: saturate(50%);
+      outline: none;
+    }
+  }
+}

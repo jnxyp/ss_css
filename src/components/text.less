@@ -1,12 +1,13 @@
-@import "color";
-@import "font";
+@import "../utility/color";
+@import "../utility/font";
 
 .ss-text-shadow {
   text-shadow: 0.03em 0.03em 0.03em @ss-color-black;
 }
 
 .ss-text-regular {
-  .ss-font-regular();
+  .ss-font-text();
+  .ss-font-normal();
   color: @ss-color-regular-text;
 }
 
@@ -14,9 +15,10 @@
 
   #warped {
     .ss-font-ui();
+    .ss-font-bold();
 
     color: @ss-color-darkblue;
-    -webkit-text-stroke: 0.02em @ss-color-glowblue;
+    -webkit-text-stroke: 0.01em @ss-color-glowblue;
 
     background: linear-gradient(@ss-color-darkblue, @ss-color-lightblue);
     -webkit-text-fill-color: transparent;
@@ -39,11 +41,13 @@
 
   &-3 {
     #warped();
+    // .ss-font-size-a(5);
     font-size: 3.7rem;
   }
 
   &-4 {
     #warped();
+    // .ss-font-size-a(5);
     font-size: 3rem;
   }
 

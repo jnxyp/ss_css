@@ -1,13 +1,28 @@
-@import "reboot";
-@import "color";
-@import "font";
-@import "cornershape";
-@import "button";
-@import "text";
-@import "table";
-@import "util";
-@import "scrollbar";
-@import "textarea";
+@charset "utf-8";
 
-// Put color_classes at the end for the highest priority
-@import "color_classes";
+// Set this to 'html' to apply reboot on entire site
+@ss-namespace: .ss-reboot;
+
+@import "reboot/reboot";
+
+// Comment following line if fonts already loaded on your site
+@import "fonts/fonts.css";
+
+@{ss-namespace} {
+  @import "utility/color";
+  @import "utility/font";
+  @import "utility/util";
+  @import "utility/cornershape";
+
+  @import "components/button";
+  @import "components/text";
+  @import "components/table";
+  @import "components/scrollbar";
+  @import "components/textarea";
+  @import "components/checkbox";
+  @import "components/listgroup";
+
+  // Put color_classes at the end for the highest priority
+  @import "utility/color_classes";
+}
+
