@@ -55,5 +55,8 @@ module.exports = {
     devServer: {
         contentBase: './docs',
     },
-    devtool: "source-map"
+    devtool: "source-map",
+    stats: {
+        children: true
+    }
 };
