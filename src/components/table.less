@@ -4,15 +4,17 @@
 @import "../components/text";
 
 
-table.ss-table {
+table.ss-table-codex {
   margin-right: 0.1rem;
   margin-bottom: 0.1rem;
   .ss-font-text();
-  display: block;
   overflow: auto;
 
+  border-collapse: separate;
+  border-spacing: 0.2em 0;
+
   & td, th {
-    padding: 0.1em 0.7em 0.1em 0.7em;
+    padding: 0.1em 0.5em 0.1em 0.5em;
   }
 
   & th {
@@ -22,15 +24,5 @@ table.ss-table {
     font-weight: 600;
     background: @ss-color-darkcyan;
     color: @ss-color-lightcyan;
-  }
-
-  & td {
-    background-color: @ss-color-lightcyan;
-  }
-
-  & td:hover {
-    background: @ss-color-cyan;
-    color: @ss-color-white;
-    .ss-transition-standard();
   }
 }

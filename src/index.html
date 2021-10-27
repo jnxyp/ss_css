@@ -3,13 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Starsector CSS Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
 </head>
 <body class="ss-reboot">
 
 <style>
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
     body {
         background: black !important;
         color: #f5f5f5 !important;
+        margin: 0 !important;
         padding: 1rem !important;
     }
 </style>
@@ -66,35 +74,26 @@
 <div id="demo-table">
     <h2>ss-table</h2>
     <hr>
-    <table class="ss-table">
-        <thead>
+    <h3><code>.ss-table-codex</code></h3>
+    <table class="ss-table-codex" style="width: 90%;">
+        <th colspan="4">后勤信息</th>
+        <th colspan="2">战斗信息</th>
         <tr>
-            <th>Table header</th>
-            <th>Table header</th>
-            <th>Table header</th>
-            <th>Table header</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Table cell</td>
-            <td>Table cell</td>
-            <td>Table cell</td>
-            <td>Table cell</td>
+            <td>船员容量</td>
+            <td class="ss-fg-green" style="text-align: right">20 / 20</td>
+            <td>货舱容量</td>
+            <td style="text-align: right">40</td>
+            <td>最高航速</td>
+            <td class="ss-fg-yellow" style="text-align: right">100</td>
         </tr>
         <tr>
-            <td>Table cell</td>
-            <td>Table cell</td>
-            <td>Table cell</td>
-            <td>Table cell</td>
+            <td>峰值时间</td>
+            <td class="ss-fg-orange" style="text-align: right">100</td>
+            <td>最大载员</td>
+            <td style="text-align: right">150</td>
+            <td>护盾角度</td>
+            <td class="ss-fg-yellow" style="text-align: right">105</td>
         </tr>
-        <tr>
-            <td>Table cell</td>
-            <td>Table cell</td>
-            <td>Table cell</td>
-            <td>Table cell</td>
-        </tr>
-        </tbody>
     </table>
 </div>
 
@@ -169,7 +168,7 @@
     <h2>ss-textarea</h2>
     <hr>
     <h3><code>.ss-textarea</code></h3>
-    <textarea class="ss-textarea" rows="4" cols="50">
+    <textarea class="ss-textarea" rows="4" cols="30" style="width: 80%;">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna
         aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -179,7 +178,8 @@
         non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </textarea>
     <h4>...with <code>.ss-scrollbar</code> and <code>.ss-text-shadow</code></h4>
-    <textarea class="ss-textarea ss-scrollbar ss-text-shadow ss-fg-lightcyan" rows="4" cols="50">
+    <textarea class="ss-textarea ss-scrollbar ss-text-shadow ss-fg-lightcyan" rows="4"
+              style="width: 80%;">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna
         aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -198,18 +198,20 @@
     <hr>
 
     <h3><code>.ss-scrollbar</code></h3>
-    <textarea class="ss-scrollbar" style="overflow-x: scroll; white-space: nowrap" rows="4"
-              cols="50">
+    <textarea class="ss-scrollbar" style="overflow-x: scroll; white-space: nowrap; width: 80%"
+              rows="4"
+    >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </textarea>
     <br>
 
-    <textarea class="ss-scrollbar" style="overflow-y: scroll;" rows="4" cols="50">
+    <textarea class="ss-scrollbar" style="overflow-y: scroll; width: 80%" rows="4">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </textarea>
     <br>
 
-    <textarea class="ss-scrollbar" style="overflow-y: scroll; white-space: nowrap" rows="4"
+    <textarea class="ss-scrollbar" style="overflow-y: scroll; white-space: nowrap;  width: 80%"
+              rows="4"
               cols="50">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -238,13 +240,16 @@
         </ul>
     </div>
 
-    <h4>...with <code>.ss-list-group-item-action</code> and <code>.ss-list-group-item[-(active|disabled)]</code></h4>
+    <h4>...with <code>.ss-list-group-item-action</code> and <code>.ss-list-group-item[-(active|disabled)]</code>
+    </h4>
     <div style="width: 300px">
         <ul class="ss-list-group">
             .ss-list-group-item-active ↓
-            <li class="ss-list-group-item-action ss-list-group-item-active">典范-级<br><small>钻石战列舰</small></li>
+            <li class="ss-list-group-item-action ss-list-group-item-active">
+                典范-级<br><small>钻石战列舰</small></li>
             .ss-list-group-item-disabled ↓
-            <li class="ss-list-group-item-action ss-list-group-item-disabled">攻势-级<br><small>大屁股主力舰</small></li>
+            <li class="ss-list-group-item-action ss-list-group-item-disabled">
+                攻势-级<br><small>大屁股主力舰</small></li>
             <li class="ss-list-group-item-action">伯劳鸟-级<br><small>玻璃大炮</small></li>
             <li class="ss-list-group-item-action">征服者-级<br><small>1.4</small></li>
             <li class="ss-list-group-item-action">苍鹭-级<br><small>冲锋航母</small></li>

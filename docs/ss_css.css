@@ -417,7 +417,7 @@
   margin-bottom: 0.1rem;
   transition-duration: 150ms;
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   font-size: 1rem;
   font-weight: 600;
   background: #16515e;
@@ -462,7 +462,7 @@
   margin-bottom: 0.1rem;
   transition-duration: 150ms;
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   font-size: 1rem;
   font-weight: 600;
   background: #16515e;
@@ -491,7 +491,7 @@
   margin-bottom: 0.1rem;
   transition-duration: 150ms;
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   font-size: 1rem;
   font-weight: 600;
   background: #16515e;
@@ -521,7 +521,7 @@
   margin-bottom: 0.1rem;
   transition-duration: 150ms;
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   font-size: 1rem;
   font-weight: 600;
   background: #16515e;
@@ -551,7 +551,7 @@
   margin-bottom: 0.1rem;
   transition-duration: 150ms;
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   font-size: 1rem;
   font-weight: 600;
   background: #16515e;
@@ -580,7 +580,7 @@
   margin-bottom: 0.1rem;
   transition-duration: 150ms;
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   font-size: 1rem;
   font-weight: 600;
   background: #16515e;
@@ -610,7 +610,7 @@
   margin-bottom: 0.1rem;
   transition-duration: 150ms;
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   font-size: 1rem;
   font-weight: 600;
   background: #16515e;
@@ -640,7 +640,7 @@
   margin-bottom: 0.1rem;
   transition-duration: 150ms;
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   font-size: 1rem;
   font-weight: 600;
   background: #16515e;
@@ -669,7 +669,7 @@
   margin-bottom: 0.1rem;
   transition-duration: 150ms;
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   font-size: 1rem;
   font-weight: 600;
   background: #16515e;
@@ -699,7 +699,7 @@
   margin-bottom: 0.1rem;
   transition-duration: 150ms;
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   font-size: 1rem;
   font-weight: 600;
   background: #16515e;
@@ -724,7 +724,7 @@
   outline: none;
 }
 .ss-reboot .ss-text-shadow {
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
 }
 .ss-reboot .ss-text-regular {
   font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
@@ -798,21 +798,21 @@
 .ss-reboot .ss-text-header {
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
   color: #A7DAFB;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
 .ss-reboot .ss-text-header #warped {
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
   color: #A7DAFB;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
 .ss-reboot .ss-text-header-1 {
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
   color: #A7DAFB;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-size: 3rem;
@@ -820,7 +820,7 @@
 .ss-reboot .ss-text-header-2 {
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
   color: #A7DAFB;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-size: 2.5rem;
@@ -828,7 +828,7 @@
 .ss-reboot .ss-text-header-3 {
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
   color: #A7DAFB;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-size: 2rem;
@@ -836,7 +836,7 @@
 .ss-reboot .ss-text-header-4 {
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
   color: #A7DAFB;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-size: 1.75rem;
@@ -844,7 +844,7 @@
 .ss-reboot .ss-text-header-5 {
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
   color: #A7DAFB;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
@@ -852,37 +852,30 @@
 .ss-reboot .ss-text-header-6 {
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
   color: #A7DAFB;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-size: 1.25rem;
 }
-.ss-reboot table.ss-table {
+.ss-reboot table.ss-table-codex {
   margin-right: 0.1rem;
   margin-bottom: 0.1rem;
   font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
-  display: block;
   overflow: auto;
+  border-collapse: separate;
+  border-spacing: 0.2em 0;
 }
-.ss-reboot table.ss-table td,
-.ss-reboot table.ss-table th {
-  padding: 0.1em 0.7em 0.1em 0.7em;
+.ss-reboot table.ss-table-codex td,
+.ss-reboot table.ss-table-codex th {
+  padding: 0.1em 0.5em 0.1em 0.5em;
 }
-.ss-reboot table.ss-table th {
+.ss-reboot table.ss-table-codex th {
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   text-align: center;
   font-weight: 600;
   background: #16515e;
   color: #A7DAFB;
-}
-.ss-reboot table.ss-table td {
-  background-color: #A7DAFB;
-}
-.ss-reboot table.ss-table td:hover {
-  background: #508597;
-  color: #f5f5f5;
-  transition-duration: 150ms;
 }
 .ss-reboot .ss-scrollbar #warped::-webkit-scrollbar {
   width: 0.4rem;
@@ -1067,7 +1060,7 @@
 .ss-reboot .ss-list-group #item-mixin {
   list-style: none;
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   background: #16515e;
   color: #A7DAFB;
   padding: 0.2em 0.7em 0.2em 0.7em;
@@ -1077,7 +1070,7 @@
 .ss-reboot .ss-list-group-item {
   list-style: none;
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   background: #16515e;
   color: #A7DAFB;
   padding: 0.2em 0.7em 0.2em 0.7em;
@@ -1087,7 +1080,7 @@
 .ss-reboot .ss-list-group-item-action {
   list-style: none;
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
-  text-shadow: 0.03em 0.03em 0.03em #000;
+  text-shadow: 0.05em 0.05em 0.05em #000;
   background: #16515e;
   color: #A7DAFB;
   padding: 0.2em 0.7em 0.2em 0.7em;
