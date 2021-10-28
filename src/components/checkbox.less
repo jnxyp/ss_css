@@ -1,5 +1,7 @@
 @import "../utility/color";
 @import "../utility/util";
+@import "../utility/font";
+@import "../components/text";
 
 .ss-checkbox {
   appearance: none;
@@ -7,27 +9,63 @@
   width: 0.95em;
   height: 0.95em;
   vertical-align: top;
-  margin-top: 0.3em;
+  margin-top: 0.25em;
   margin-left: 0.25em;
   margin-right: 0.2em;
   border-radius: 0.15em;
 
   background-color: darken(@ss-color-brown, 45%);
-  box-shadow:
-          inset 0 0 0.025em 0.05em @ss-color-background,
-          inset 0 0 0 0.15em darken(@ss-color-brown, 20%),
-          0 0 0.0625em 0.095em lighten(@ss-color-grey, 20%);
+  box-shadow: inset 0 0 0.025em 0.05em @ss-color-background,
+  inset 0 0 0 0.15em darken(@ss-color-brown, 20%),
+  0 0 0.0625em 0.095em lighten(@ss-color-grey, 20%);
 
-  &:hover, &:focus, &:active {
+  &:hover {
     filter: brightness(120%);
   }
 
   &:checked {
     background-color: @ss-color-lightblue;
-    box-shadow:
-            inset 0 0 0.03em 0.05em @ss-color-background,
-            inset 0 0 0 0.15em darken(@ss-color-lightblue, 20%),
-            inset 0 0 0.05em 0.16em @ss-color-background,
-            0 0 0.0625em 0.095em lighten(@ss-color-grey, 20%);
+    box-shadow: inset 0 0 0.03em 0.05em @ss-color-background,
+    inset 0 0 0 0.15em darken(@ss-color-lightblue, 20%),
+    inset 0 0 0.05em 0.16em @ss-color-background,
+    0 0 0.0625em 0.095em lighten(@ss-color-grey, 20%);
+  }
+
+  // Label setting
+  &-label {
+    user-select: none;
+
+    .ss-font-ui();
+    .ss-text-shadow();
+    color: @ss-color-lightcyan;
+  }
+}
+
+.ss-checkbox-button {
+  appearance: none;
+  position: absolute;
+
+  & + label.ss-checkbox-label {
+    .ss-font-ui();
+    .ss-text-shadow();
+    color: @ss-color-lightcyan;
+
+    user-select: none;
+
+    padding: 0.05em 1.5em;
+    border: 1px solid @ss-color-darkcyan;
+
+    &:hover {
+      filter: brightness(120%);
+    }
+  }
+
+  &:checked + label.ss-checkbox-label {
+    background: @ss-color-darkcyan;
+    box-shadow: inset 0 0 0 1px @ss-color-black;
+  }
+
+  &:focus + label.ss-checkbox-label {
+    filter: brightness(130%);
   }
 }

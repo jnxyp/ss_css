@@ -132,33 +132,27 @@
 <!-- ss-checkbox-* -->
 <div id="demo-checkbox">
     <h2>ss-checkbox-*</h2>
+    <small>ℹ Checkbox label element must be right after the checkbox element, with property "for" set</small>
     <hr>
-    <h3>ss-checkbox</h3>
+    <h3><code>.ss-checkbox</code></h3>
     <div>
         <form>
-            <label>
-                <input type="checkbox" class="ss-checkbox" value="A">
-                护卫舰
-            </label>
+            <input id="ss-checkbox-A" type="checkbox" class="ss-checkbox" value="A">
+            <label for="ss-checkbox-A" class="ss-checkbox-label">护卫舰</label>
             <br>
-            <label>
-                <input type="checkbox" class="ss-checkbox" value="B" checked>
-                驱逐舰
-            </label>
+            <input id="ss-checkbox-B" type="checkbox" class="ss-checkbox" value="B" checked>
+            <label for="ss-checkbox-B" class="ss-checkbox-label">驱逐舰</label>
         </form>
     </div>
-    <h4>with ss-fg-lightcyan, ss-text-shadow and ss-font-ui</h4>
-    <div class="ss-text-shadow ss-fg-lightcyan ss-font-ui">
+    <h3><code>.ss-checkbox-button</code></h3>
+    <div>
         <form>
-            <label>
-                <input type="checkbox" class="ss-checkbox" value="A">
-                护卫舰
-            </label>
-            <br>
-            <label>
-                <input type="checkbox" class="ss-checkbox" value="B" checked>
-                驱逐舰
-            </label>
+            <input id="ss-checkbox-button-A" type="checkbox" class="ss-checkbox-button" value="A">
+            <label for="ss-checkbox-button-A" class="ss-checkbox-label">新消息</label>
+            <input id="ss-checkbox-button-B" type="checkbox" class="ss-checkbox-button" value="B" checked>
+            <label for="ss-checkbox-button-B" class="ss-checkbox-label">舰队赏金</label>
+            <input id="ss-checkbox-button-C" type="checkbox" class="ss-checkbox-button" value="C" checked>
+            <label for="ss-checkbox-button-C" class="ss-checkbox-label">殖民地遇袭</label>
         </form>
     </div>
 </div>
