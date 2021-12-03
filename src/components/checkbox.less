@@ -19,6 +19,20 @@
   inset 0 0 0 0.15em darken(@ss-color-brown, 20%),
   0 0 0.0625em 0.095em lighten(@ss-color-grey, 20%);
 
+  each(@ss-color-suffix-names, {
+    &.ss-foreground-@{value}, &.ss-fg-@{value} {
+      @color: "ss-color-@{value}";
+      color: @@color;
+    }
+  })
+
+  each(@ss-color-suffix-status, {
+    &.ss-foreground-@{value}, &.ss-fg-@{value} {
+      @color: "ss-color-@{value}";
+      color: @@color;
+    }
+  })
+
   &:hover {
     filter: brightness(120%);
   }
@@ -37,7 +51,7 @@
 
     .ss-font-ui();
     .ss-text-shadow();
-    color: @ss-color-lightcyan;
+
   }
 }
 
@@ -49,11 +63,39 @@
     .ss-font-ui();
     .ss-text-shadow();
     color: @ss-color-lightcyan;
-
     user-select: none;
 
     padding: 0.05em 1.5em;
     border: 1px solid @ss-color-darkcyan;
+    background-color: @ss-color-background;
+
+    each(@ss-color-suffix-names, {
+      &.ss-foreground-@{value}, &.ss-fg-@{value} {
+        @color: "ss-color-@{value}";
+        color: @@color;
+      }
+    })
+
+    each(@ss-color-suffix-status, {
+      &.ss-foreground-@{value}, &.ss-fg-@{value} {
+        @color: "ss-color-@{value}";
+        color: @@color;
+      }
+    })
+
+    each(@ss-color-suffix-names, {
+      &.ss-background-@{value}, &.ss-bg-@{value} {
+        @color: "ss-color-@{value}";
+        border-color: @@color;
+      }
+    })
+
+    each(@ss-color-suffix-status, {
+      &.ss-background-@{value}, &.ss-bg-@{value} {
+        @color: "ss-color-@{value}";
+        border-color: @@color;
+      }
+    })
 
     &:hover {
       filter: brightness(120%);
@@ -61,8 +103,22 @@
   }
 
   &:checked + label.ss-checkbox-label {
-    background: @ss-color-darkcyan;
+    background-color: @ss-color-darkcyan;
     box-shadow: inset 0 0 0 1px @ss-color-black;
+
+    each(@ss-color-suffix-names, {
+      &.ss-background-@{value}, &.ss-bg-@{value} {
+        @color: "ss-color-@{value}";
+        background-color: @@color;
+      }
+    })
+
+    each(@ss-color-suffix-status, {
+      &.ss-background-@{value}, &.ss-bg-@{value} {
+        @color: "ss-color-@{value}";
+        background-color: @@color;
+      }
+    })
   }
 
   &:focus + label.ss-checkbox-label {
