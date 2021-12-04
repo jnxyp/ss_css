@@ -1036,21 +1036,455 @@
   width: 0.95em;
   height: 0.95em;
   vertical-align: top;
-  margin-top: 0.3em;
+  margin-top: 0.25em;
   margin-left: 0.25em;
   margin-right: 0.2em;
   border-radius: 0.15em;
   background-color: #2d1c18;
   box-shadow: inset 0 0 0.025em 0.05em #000, inset 0 0 0 0.15em #814f44, 0 0 0.0625em 0.095em #cccccc;
 }
-.ss-reboot .ss-checkbox:hover,
-.ss-reboot .ss-checkbox:focus,
-.ss-reboot .ss-checkbox:active {
+.ss-reboot .ss-checkbox.ss-foreground-glowblue,
+.ss-reboot .ss-checkbox.ss-fg-glowblue {
+  color: #82f8ff;
+}
+.ss-reboot .ss-checkbox.ss-foreground-lightblue,
+.ss-reboot .ss-checkbox.ss-fg-lightblue {
+  color: #42d9ff;
+}
+.ss-reboot .ss-checkbox.ss-foreground-darkblue,
+.ss-reboot .ss-checkbox.ss-fg-darkblue {
+  color: #1174ff;
+}
+.ss-reboot .ss-checkbox.ss-foreground-shadowblue,
+.ss-reboot .ss-checkbox.ss-fg-shadowblue {
+  color: #012ce2;
+}
+.ss-reboot .ss-checkbox.ss-foreground-black,
+.ss-reboot .ss-checkbox.ss-fg-black {
+  color: #000;
+}
+.ss-reboot .ss-checkbox.ss-foreground-brown,
+.ss-reboot .ss-checkbox.ss-fg-brown {
+  color: #b68175;
+}
+.ss-reboot .ss-checkbox.ss-foreground-grey,
+.ss-reboot .ss-checkbox.ss-fg-grey {
+  color: #999999;
+}
+.ss-reboot .ss-checkbox.ss-foreground-white,
+.ss-reboot .ss-checkbox.ss-fg-white {
+  color: #f5f5f5;
+}
+.ss-reboot .ss-checkbox.ss-foreground-green,
+.ss-reboot .ss-checkbox.ss-fg-green {
+  color: #00CD92;
+}
+.ss-reboot .ss-checkbox.ss-foreground-lime,
+.ss-reboot .ss-checkbox.ss-fg-lime {
+  color: #8fc138;
+}
+.ss-reboot .ss-checkbox.ss-foreground-yellow,
+.ss-reboot .ss-checkbox.ss-fg-yellow {
+  color: #eecc11;
+}
+.ss-reboot .ss-checkbox.ss-foreground-orange,
+.ss-reboot .ss-checkbox.ss-fg-orange {
+  color: #ff8811;
+}
+.ss-reboot .ss-checkbox.ss-foreground-red,
+.ss-reboot .ss-checkbox.ss-fg-red {
+  color: #ff0000;
+}
+.ss-reboot .ss-checkbox.ss-foreground-darkcyan,
+.ss-reboot .ss-checkbox.ss-fg-darkcyan {
+  color: #16515e;
+}
+.ss-reboot .ss-checkbox.ss-foreground-cyan,
+.ss-reboot .ss-checkbox.ss-fg-cyan {
+  color: #508597;
+}
+.ss-reboot .ss-checkbox.ss-foreground-lightcyan,
+.ss-reboot .ss-checkbox.ss-fg-lightcyan {
+  color: #A7DAFB;
+}
+.ss-reboot .ss-checkbox.ss-foreground-portage,
+.ss-reboot .ss-checkbox.ss-fg-portage {
+  color: #8597D1;
+}
+.ss-reboot .ss-checkbox.ss-foreground-darkred,
+.ss-reboot .ss-checkbox.ss-fg-darkred {
+  color: #6f0404;
+}
+.ss-reboot .ss-checkbox.ss-foreground-darkyellow,
+.ss-reboot .ss-checkbox.ss-fg-darkyellow {
+  color: #5f5207;
+}
+.ss-reboot .ss-checkbox.ss-foreground-primary,
+.ss-reboot .ss-checkbox.ss-fg-primary {
+  color: #16515e;
+}
+.ss-reboot .ss-checkbox.ss-foreground-secondary,
+.ss-reboot .ss-checkbox.ss-fg-secondary {
+  color: #508597;
+}
+.ss-reboot .ss-checkbox.ss-foreground-success,
+.ss-reboot .ss-checkbox.ss-fg-success {
+  color: #8fc138;
+}
+.ss-reboot .ss-checkbox.ss-foreground-warning,
+.ss-reboot .ss-checkbox.ss-fg-warning {
+  color: #eecc11;
+}
+.ss-reboot .ss-checkbox.ss-foreground-danger,
+.ss-reboot .ss-checkbox.ss-fg-danger {
+  color: #ff0000;
+}
+.ss-reboot .ss-checkbox.ss-foreground-info,
+.ss-reboot .ss-checkbox.ss-fg-info {
+  color: #42d9ff;
+}
+.ss-reboot .ss-checkbox:hover {
   filter: brightness(120%);
 }
 .ss-reboot .ss-checkbox:checked {
   background-color: #42d9ff;
   box-shadow: inset 0 0 0.03em 0.05em #000, inset 0 0 0 0.15em #00afdb, inset 0 0 0.05em 0.16em #000, 0 0 0.0625em 0.095em #cccccc;
+}
+.ss-reboot .ss-checkbox-label {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  text-shadow: 0.05em 0.05em 0.05em #000;
+}
+.ss-reboot .ss-checkbox-button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: absolute;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label {
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  text-shadow: 0.05em 0.05em 0.05em #000;
+  color: #A7DAFB;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  padding: 0.05em 1.5em;
+  border: 1px solid #16515e;
+  background-color: #000;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-glowblue,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-glowblue {
+  color: #82f8ff;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-lightblue,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-lightblue {
+  color: #42d9ff;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-darkblue,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-darkblue {
+  color: #1174ff;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-shadowblue,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-shadowblue {
+  color: #012ce2;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-black,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-black {
+  color: #000;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-brown,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-brown {
+  color: #b68175;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-grey,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-grey {
+  color: #999999;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-white,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-white {
+  color: #f5f5f5;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-green,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-green {
+  color: #00CD92;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-lime,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-lime {
+  color: #8fc138;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-yellow,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-yellow {
+  color: #eecc11;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-orange,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-orange {
+  color: #ff8811;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-red,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-red {
+  color: #ff0000;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-darkcyan,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-darkcyan {
+  color: #16515e;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-cyan,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-cyan {
+  color: #508597;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-lightcyan,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-lightcyan {
+  color: #A7DAFB;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-portage,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-portage {
+  color: #8597D1;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-darkred,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-darkred {
+  color: #6f0404;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-darkyellow,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-darkyellow {
+  color: #5f5207;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-primary,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-primary {
+  color: #16515e;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-secondary,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-secondary {
+  color: #508597;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-success,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-success {
+  color: #8fc138;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-warning,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-warning {
+  color: #eecc11;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-danger,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-danger {
+  color: #ff0000;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-foreground-info,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-fg-info {
+  color: #42d9ff;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-glowblue,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-glowblue {
+  border-color: #82f8ff;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-lightblue,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-lightblue {
+  border-color: #42d9ff;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-darkblue,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-darkblue {
+  border-color: #1174ff;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-shadowblue,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-shadowblue {
+  border-color: #012ce2;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-black,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-black {
+  border-color: #000;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-brown,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-brown {
+  border-color: #b68175;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-grey,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-grey {
+  border-color: #999999;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-white,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-white {
+  border-color: #f5f5f5;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-green,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-green {
+  border-color: #00CD92;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-lime,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-lime {
+  border-color: #8fc138;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-yellow,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-yellow {
+  border-color: #eecc11;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-orange,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-orange {
+  border-color: #ff8811;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-red,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-red {
+  border-color: #ff0000;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-darkcyan,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-darkcyan {
+  border-color: #16515e;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-cyan,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-cyan {
+  border-color: #508597;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-lightcyan,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-lightcyan {
+  border-color: #A7DAFB;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-portage,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-portage {
+  border-color: #8597D1;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-darkred,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-darkred {
+  border-color: #6f0404;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-darkyellow,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-darkyellow {
+  border-color: #5f5207;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-primary,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-primary {
+  border-color: #16515e;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-secondary,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-secondary {
+  border-color: #508597;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-success,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-success {
+  border-color: #8fc138;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-warning,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-warning {
+  border-color: #eecc11;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-danger,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-danger {
+  border-color: #ff0000;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-background-info,
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label.ss-bg-info {
+  border-color: #42d9ff;
+}
+.ss-reboot .ss-checkbox-button + label.ss-checkbox-label:hover {
+  filter: brightness(120%);
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label {
+  background-color: #16515e;
+  box-shadow: inset 0 0 0 1px #000;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-glowblue,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-glowblue {
+  background-color: #82f8ff;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-lightblue,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-lightblue {
+  background-color: #42d9ff;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-darkblue,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-darkblue {
+  background-color: #1174ff;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-shadowblue,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-shadowblue {
+  background-color: #012ce2;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-black,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-black {
+  background-color: #000;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-brown,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-brown {
+  background-color: #b68175;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-grey,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-grey {
+  background-color: #999999;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-white,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-white {
+  background-color: #f5f5f5;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-green,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-green {
+  background-color: #00CD92;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-lime,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-lime {
+  background-color: #8fc138;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-yellow,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-yellow {
+  background-color: #eecc11;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-orange,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-orange {
+  background-color: #ff8811;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-red,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-red {
+  background-color: #ff0000;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-darkcyan,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-darkcyan {
+  background-color: #16515e;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-cyan,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-cyan {
+  background-color: #508597;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-lightcyan,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-lightcyan {
+  background-color: #A7DAFB;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-portage,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-portage {
+  background-color: #8597D1;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-darkred,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-darkred {
+  background-color: #6f0404;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-darkyellow,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-darkyellow {
+  background-color: #5f5207;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-primary,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-primary {
+  background-color: #16515e;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-secondary,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-secondary {
+  background-color: #508597;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-success,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-success {
+  background-color: #8fc138;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-warning,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-warning {
+  background-color: #eecc11;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-danger,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-danger {
+  background-color: #ff0000;
+}
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-background-info,
+.ss-reboot .ss-checkbox-button:checked + label.ss-checkbox-label.ss-bg-info {
+  background-color: #42d9ff;
+}
+.ss-reboot .ss-checkbox-button:focus + label.ss-checkbox-label {
+  filter: brightness(130%);
 }
 .ss-reboot .ss-list-group {
   display: flex;
@@ -1180,6 +1614,10 @@
 .ss-reboot .ss-fg-darkred {
   color: #6f0404;
 }
+.ss-reboot .ss-foreground-darkyellow,
+.ss-reboot .ss-fg-darkyellow {
+  color: #5f5207;
+}
 .ss-reboot .ss-foreground-primary,
 .ss-reboot .ss-fg-primary {
   color: #16515e;
@@ -1275,6 +1713,10 @@
 .ss-reboot .ss-background-darkred,
 .ss-reboot .ss-bg-darkred {
   background-color: #6f0404;
+}
+.ss-reboot .ss-background-darkyellow,
+.ss-reboot .ss-bg-darkyellow {
+  background-color: #5f5207;
 }
 .ss-reboot .ss-background-primary,
 .ss-reboot .ss-bg-primary {

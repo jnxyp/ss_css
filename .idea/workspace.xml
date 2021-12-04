@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9213a936-e6b3-4dcb-b6d1-63fcee1de6a6" name="Default Changelist" comment="Added .ss-checkbox-button component">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkbox.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkbox.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/color.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/color.less" afterDir="false" />
-    </list>
+    <list default="true" id="9213a936-e6b3-4dcb-b6d1-63fcee1de6a6" name="Default Changelist" comment="Make color classes available to checkbox elements" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +133,7 @@
       <workItem from="1635317115122" duration="25000" />
       <workItem from="1635448470345" duration="3550000" />
       <workItem from="1637474617343" duration="22000" />
-      <workItem from="1638547692771" duration="3645000" />
+      <workItem from="1638547692771" duration="3681000" />
     </task>
     <task id="LOCAL-00001" summary="Using webpack for LESS compiling and css postprocess;&#10;Separate different modules to different less files;&#10;Updated web fonts definition;&#10;Re-write ss-button classes with clip-path;&#10;Added color variables based on status (success, danger...).">
       <created>1626792904780</created>
@@ -182,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635452040867</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Make color classes available to checkbox elements">
+      <created>1638551443603</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638551443603</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +208,8 @@
     <MESSAGE value="Added source-map for dist version&#10;Fixed scale for demo page on mobile devices&#10;Rewrite component Table" />
     <MESSAGE value="Fix less import error and updated dist" />
     <MESSAGE value="Added .ss-checkbox-button component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added .ss-checkbox-button component" />
+    <MESSAGE value="Make color classes available to checkbox elements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make color classes available to checkbox elements" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
