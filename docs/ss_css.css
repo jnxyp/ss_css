@@ -389,7 +389,7 @@
   font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
 }
 .ss-reboot .ss-font-text {
-  font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", STXihei, SimHei, "WenQuanYi Micro Hei", sans-serif;
 }
 .ss-reboot .ss-font-normal {
   font-weight: 400;
@@ -727,7 +727,7 @@
   text-shadow: 0.05em 0.05em 0.05em #000;
 }
 .ss-reboot .ss-text-regular {
-  font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", STXihei, SimHei, "WenQuanYi Micro Hei", sans-serif;
   font-weight: 400;
   color: #f5f5f5;
 }
@@ -860,7 +860,7 @@
 .ss-reboot table.ss-table-codex {
   margin-right: 0.1rem;
   margin-bottom: 0.1rem;
-  font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", STXihei, SimHei, "WenQuanYi Micro Hei", sans-serif;
   overflow: auto;
   border-collapse: separate;
   border-spacing: 0.2em 0;
@@ -886,7 +886,7 @@
 }
 .ss-reboot .ss-scrollbar #warped::-webkit-scrollbar-thumb {
   border-radius: calc(0.4rem / 2);
-  background: #508597;
+  background: rgba(80, 133, 151, 0.6);
 }
 .ss-reboot .ss-scrollbar #warped::-webkit-scrollbar-thumb:hover {
   background: #A7DAFB;
@@ -903,7 +903,7 @@
 }
 .ss-reboot .ss-scrollbar::-webkit-scrollbar-thumb {
   border-radius: calc(0.4rem / 2);
-  background: #508597;
+  background: rgba(80, 133, 151, 0.6);
 }
 .ss-reboot .ss-scrollbar::-webkit-scrollbar-thumb:hover {
   background: #A7DAFB;
@@ -926,7 +926,7 @@
 }
 .ss-reboot .ss-scrollbar-darkcyan_bg #warped::-webkit-scrollbar-thumb {
   border-radius: calc(0.4rem / 2);
-  background: #508597;
+  background: rgba(80, 133, 151, 0.6);
 }
 .ss-reboot .ss-scrollbar-darkcyan_bg #warped::-webkit-scrollbar-thumb:hover {
   background: #A7DAFB;
@@ -943,7 +943,7 @@
 }
 .ss-reboot .ss-scrollbar-darkcyan_bg::-webkit-scrollbar-thumb {
   border-radius: calc(0.4rem / 2);
-  background: #508597;
+  background: rgba(80, 133, 151, 0.6);
 }
 .ss-reboot .ss-scrollbar-darkcyan_bg::-webkit-scrollbar-thumb:hover {
   background: #A7DAFB;
@@ -964,12 +964,12 @@
   background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, #508597 40%, #508597 60%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
 }
 .ss-reboot .ss-scrollbar-darkcyan_bg::-webkit-scrollbar-thumb {
-  background: #6a9eb0;
+  background: rgba(106, 158, 176, 0.6);
 }
 .ss-reboot .ss-textarea {
   caret-color: #A7DAFB;
   caret-shape: underscore;
-  font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", STXihei, SimHei, "WenQuanYi Micro Hei", sans-serif;
   font-weight: 400;
   color: #f5f5f5;
   background-color: #16515e;
@@ -989,7 +989,7 @@
 }
 .ss-reboot .ss-textarea #warped::-webkit-scrollbar-thumb {
   border-radius: calc(0.4rem / 2);
-  background: #508597;
+  background: rgba(80, 133, 151, 0.6);
 }
 .ss-reboot .ss-textarea #warped::-webkit-scrollbar-thumb:hover {
   background: #A7DAFB;
@@ -1006,7 +1006,7 @@
 }
 .ss-reboot .ss-textarea::-webkit-scrollbar-thumb {
   border-radius: calc(0.4rem / 2);
-  background: #508597;
+  background: rgba(80, 133, 151, 0.6);
 }
 .ss-reboot .ss-textarea::-webkit-scrollbar-thumb:hover {
   background: #A7DAFB;
@@ -1027,7 +1027,7 @@
   background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, #508597 40%, #508597 60%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
 }
 .ss-reboot .ss-textarea::-webkit-scrollbar-thumb {
-  background: #6a9eb0;
+  background: rgba(106, 158, 176, 0.6);
 }
 .ss-reboot .ss-checkbox {
   -webkit-appearance: none;
@@ -1042,106 +1042,6 @@
   border-radius: 0.15em;
   background-color: #2d1c18;
   box-shadow: inset 0 0 0.025em 0.05em #000, inset 0 0 0 0.15em #814f44, 0 0 0.0625em 0.095em #cccccc;
-}
-.ss-reboot .ss-checkbox.ss-foreground-glowblue,
-.ss-reboot .ss-checkbox.ss-fg-glowblue {
-  color: #82f8ff;
-}
-.ss-reboot .ss-checkbox.ss-foreground-lightblue,
-.ss-reboot .ss-checkbox.ss-fg-lightblue {
-  color: #42d9ff;
-}
-.ss-reboot .ss-checkbox.ss-foreground-darkblue,
-.ss-reboot .ss-checkbox.ss-fg-darkblue {
-  color: #1174ff;
-}
-.ss-reboot .ss-checkbox.ss-foreground-shadowblue,
-.ss-reboot .ss-checkbox.ss-fg-shadowblue {
-  color: #012ce2;
-}
-.ss-reboot .ss-checkbox.ss-foreground-black,
-.ss-reboot .ss-checkbox.ss-fg-black {
-  color: #000;
-}
-.ss-reboot .ss-checkbox.ss-foreground-brown,
-.ss-reboot .ss-checkbox.ss-fg-brown {
-  color: #b68175;
-}
-.ss-reboot .ss-checkbox.ss-foreground-grey,
-.ss-reboot .ss-checkbox.ss-fg-grey {
-  color: #999999;
-}
-.ss-reboot .ss-checkbox.ss-foreground-white,
-.ss-reboot .ss-checkbox.ss-fg-white {
-  color: #f5f5f5;
-}
-.ss-reboot .ss-checkbox.ss-foreground-green,
-.ss-reboot .ss-checkbox.ss-fg-green {
-  color: #00CD92;
-}
-.ss-reboot .ss-checkbox.ss-foreground-lime,
-.ss-reboot .ss-checkbox.ss-fg-lime {
-  color: #8fc138;
-}
-.ss-reboot .ss-checkbox.ss-foreground-yellow,
-.ss-reboot .ss-checkbox.ss-fg-yellow {
-  color: #eecc11;
-}
-.ss-reboot .ss-checkbox.ss-foreground-orange,
-.ss-reboot .ss-checkbox.ss-fg-orange {
-  color: #ff8811;
-}
-.ss-reboot .ss-checkbox.ss-foreground-red,
-.ss-reboot .ss-checkbox.ss-fg-red {
-  color: #ff0000;
-}
-.ss-reboot .ss-checkbox.ss-foreground-darkcyan,
-.ss-reboot .ss-checkbox.ss-fg-darkcyan {
-  color: #16515e;
-}
-.ss-reboot .ss-checkbox.ss-foreground-cyan,
-.ss-reboot .ss-checkbox.ss-fg-cyan {
-  color: #508597;
-}
-.ss-reboot .ss-checkbox.ss-foreground-lightcyan,
-.ss-reboot .ss-checkbox.ss-fg-lightcyan {
-  color: #A7DAFB;
-}
-.ss-reboot .ss-checkbox.ss-foreground-portage,
-.ss-reboot .ss-checkbox.ss-fg-portage {
-  color: #8597D1;
-}
-.ss-reboot .ss-checkbox.ss-foreground-darkred,
-.ss-reboot .ss-checkbox.ss-fg-darkred {
-  color: #6f0404;
-}
-.ss-reboot .ss-checkbox.ss-foreground-darkyellow,
-.ss-reboot .ss-checkbox.ss-fg-darkyellow {
-  color: #5f5207;
-}
-.ss-reboot .ss-checkbox.ss-foreground-primary,
-.ss-reboot .ss-checkbox.ss-fg-primary {
-  color: #16515e;
-}
-.ss-reboot .ss-checkbox.ss-foreground-secondary,
-.ss-reboot .ss-checkbox.ss-fg-secondary {
-  color: #508597;
-}
-.ss-reboot .ss-checkbox.ss-foreground-success,
-.ss-reboot .ss-checkbox.ss-fg-success {
-  color: #8fc138;
-}
-.ss-reboot .ss-checkbox.ss-foreground-warning,
-.ss-reboot .ss-checkbox.ss-fg-warning {
-  color: #eecc11;
-}
-.ss-reboot .ss-checkbox.ss-foreground-danger,
-.ss-reboot .ss-checkbox.ss-fg-danger {
-  color: #ff0000;
-}
-.ss-reboot .ss-checkbox.ss-foreground-info,
-.ss-reboot .ss-checkbox.ss-fg-info {
-  color: #42d9ff;
 }
 .ss-reboot .ss-checkbox:hover {
   filter: brightness(120%);
@@ -1541,6 +1441,82 @@
 .ss-reboot .ss-list-group-item-disabled {
   filter: saturate(50%);
   outline: none;
+}
+.ss-reboot .ss-range {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  vertical-align: top;
+  margin-bottom: 0.5em;
+}
+.ss-reboot .ss-range:focus {
+  filter: brightness(110%);
+}
+.ss-reboot .ss-range:hover {
+  filter: brightness(120%);
+}
+.ss-reboot .ss-range::-webkit-slider-runnable-track {
+  overflow: hidden;
+  -webkit-appearance: none;
+  height: 1.5em;
+  background: #16515e;
+  background: linear-gradient(180deg, #1b6373 0%, #113f49 40%, #113f49 60%, #1b6373 100%);
+  border-top: 1px solid #508597;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #508597;
+  border-right: 1px solid #000;
+  box-shadow: inset 0 0 0.5px 0.5px #000, 2px 0 0.5px 0px #42d9ff, -2px 0 0.5px 0px #42d9ff;
+}
+.ss-reboot .ss-range::-webkit-slider-runnable-track:focus {
+  filter: brightness(110%);
+}
+.ss-reboot .ss-range::-webkit-slider-runnable-track:hover {
+  filter: brightness(115%);
+}
+.ss-reboot .ss-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 1.5em;
+  width: 1.5px;
+  background: #A7DAFB;
+  background: linear-gradient(180deg, #000 0%, #1b6373 2%, #8fd0fa 50%, #1b6373 98%, #000 100%);
+  box-shadow: 1px 0 1px 0 #000, 1.5px 0 0 0 #42d9ff, -0.5px 0 1px 0 rgba(0, 0, 0, 0.5), -10000px 0 0 10000px rgba(66, 217, 255, 0.4);
+}
+.ss-reboot .ss-range::-moz-range-track {
+  overflow: hidden;
+  -moz-appearance: none;
+  height: 1.5em;
+  background: #16515e;
+  background: linear-gradient(180deg, #1b6373 0%, #113f49 40%, #113f49 60%, #1b6373 100%);
+  border-top: 1px solid #508597;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #508597;
+  border-right: 1px solid #000;
+  box-shadow: inset 0 0 0.5px 0.5px #000, 2px 0 0.5px 0px #42d9ff, -2px 0 0.5px 0px #42d9ff;
+}
+.ss-reboot .ss-range::-moz-range-thumb {
+  -moz-appearance: none;
+  height: 1.5em;
+  width: 1.5px;
+  background: #A7DAFB;
+  background: linear-gradient(180deg, #000 0%, #1b6373 2%, #8fd0fa 50%, #1b6373 98%, #000 100%);
+  box-shadow: 1px 0 1px 0 #000, 1.5px 0 0 0 #42d9ff, -0.5px 0 1px 0 rgba(0, 0, 0, 0.5), -10000px 0 0 10000px rgba(66, 217, 255, 0.4);
+}
+@supports (-moz-appearance:none) {
+  .ss-reboot .ss-range {
+    overflow: hidden;
+    outline: 1.5px solid rgba(80, 133, 151, 0.75);
+  }
+}
+.ss-reboot .ss-range-label {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-align: center;
+  font-family: Orbitron, REEJI-BigYoung, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+  text-shadow: 0.05em 0.05em 0.05em #000;
+  margin-right: 0.5em;
+  margin-bottom: 0;
 }
 .ss-reboot .ss-foreground-glowblue,
 .ss-reboot .ss-fg-glowblue {

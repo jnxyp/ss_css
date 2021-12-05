@@ -1,0 +1,133 @@
+@import "../utility/color";
+@import "../utility/util";
+@import "../utility/font";
+@import "../components/text";
+
+.ss-range {
+  @track-height: 1.5em;
+  @track-background: @ss-color-darkcyan;
+  @track-background-gradient: linear-gradient(180deg,
+  lighten(@ss-color-darkcyan, 5%) 0%,
+  darken(@ss-color-darkcyan, 5%) 40%,
+  darken(@ss-color-darkcyan, 5%) 60%,
+  lighten(@ss-color-darkcyan, 5%) 100%);
+
+  @track-border-top: 1px solid @ss-color-cyan;
+  @track-border-left: 1px solid @ss-color-black;
+  @track-border-bottom: 1px solid @ss-color-cyan;
+  @track-border-right: 1px solid @ss-color-black;
+
+  @track-box-shadow: inset 0 0 0.5px 0.5px @ss-color-black,
+  2px 0 0.5px 0px @ss-color-lightblue,
+  -2px 0 0.5px 0px @ss-color-lightblue;
+
+  @thumb-background: @ss-color-lightcyan;
+  @thumb-background-gradient: linear-gradient(180deg,
+  @ss-color-black 0%,
+  lighten(@ss-color-darkcyan, 5%) 2%,
+  darken(@ss-color-lightcyan, 5%) 50%,
+  lighten(@ss-color-darkcyan, 5%) 98%,
+  @ss-color-black 100%);
+
+  @thumb-box-shadow: 1px 0 1px 0 @ss-color-black,
+  1.5px 0 0 0 @ss-color-lightblue,
+  -0.5px 0 1px 0 fade(@ss-color-black, 50%),
+  -10000px 0 0 10000px fade(@ss-color-lightblue, 40%);
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  width: 100%;
+  vertical-align: top;
+
+  margin-bottom: 0.5em;
+
+  &:focus {
+    filter: brightness(110%);
+  }
+
+  &:hover {
+    filter: brightness(120%);
+  }
+
+  // For Webkit browsers
+  &::-webkit-slider-runnable-track {
+    overflow: hidden;
+    -webkit-appearance: none;
+
+    height: @track-height;
+
+    background: @track-background;
+    background: @track-background-gradient;
+
+    border-top: @track-border-top;
+    border-left: @track-border-left;
+    border-bottom: @track-border-bottom;
+    border-right: @track-border-right;
+
+    box-shadow: @track-box-shadow;
+
+    &:focus {
+      filter: brightness(110%);
+    }
+
+    &:hover {
+      filter: brightness(115%);
+    }
+  }
+
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: @track-height;
+    width: 1.5px;
+    background: @thumb-background;
+    background: @thumb-background-gradient;
+
+    box-shadow: @thumb-box-shadow;
+  }
+
+  // For Mozilla
+  &::-moz-range-track {
+    overflow: hidden;
+    -moz-appearance: none;
+
+    height: @track-height;
+
+    background: @track-background;
+    background: @track-background-gradient;
+
+    border-top: @track-border-top;
+    border-left: @track-border-left;
+    border-bottom: @track-border-bottom;
+    border-right: @track-border-right;
+
+    box-shadow: @track-box-shadow;
+  }
+
+  &::-moz-range-thumb {
+    -moz-appearance: none;
+    height: @track-height;
+    width: 1.5px;
+    background: @thumb-background;
+    background: @thumb-background-gradient;
+
+    box-shadow: @thumb-box-shadow;
+  }
+
+  @supports (-moz-appearance:none) {
+    overflow: hidden;
+    outline: 1.5px solid fade(@ss-color-cyan, 75%);
+  }
+
+  // Label setting
+  &-label {
+    user-select: none;
+    text-align: center;
+
+    .ss-font-ui();
+    .ss-text-shadow();
+
+    margin-right: 0.5em;
+    margin-bottom: 0;
+  }
+}

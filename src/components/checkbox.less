@@ -19,20 +19,6 @@
   inset 0 0 0 0.15em darken(@ss-color-brown, 20%),
   0 0 0.0625em 0.095em lighten(@ss-color-grey, 20%);
 
-  each(@ss-color-suffix-names, {
-    &.ss-foreground-@{value}, &.ss-fg-@{value} {
-      @color: "ss-color-@{value}";
-      color: @@color;
-    }
-  })
-
-  each(@ss-color-suffix-status, {
-    &.ss-foreground-@{value}, &.ss-fg-@{value} {
-      @color: "ss-color-@{value}";
-      color: @@color;
-    }
-  })
-
   &:hover {
     filter: brightness(120%);
   }

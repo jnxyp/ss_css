@@ -36,6 +36,7 @@
         <li><a href="#demo-table">Table</a></li>
         <li><a href="#demo-button">Button</a></li>
         <li><a href="#demo-checkbox">Checkbox</a></li>
+        <li><a href="#demo-range">Range</a></li>
         <li><a href="#demo-textarea">Textarea</a></li>
         <li><a href="#demo-scrollbar">Scrollbar</a></li>
         <li><a href="#demo-list-group">List Group</a></li>
@@ -162,63 +163,64 @@
     </div>
 </div>
 
+<!-- ss-range-* -->
+<div id="demo-range">
+    <h2>ss-range-*</h2>
+    <small>⚠ Known browser compatibility issues (available for webkit, partially supported by firefox)</small>
+    <hr>
+    <h3><code>.ss-range</code></h3>
+    <div>
+        <form>
+            <label class="ss-range-label" for="ss-range-A">战场规模</label>
+            <input type="range" class="ss-range" style="width: 75%" id="ss-range-A"
+                   min="200" max="500" step="1">
+            <br>
+            <label class="ss-range-label" for="ss-range-B">音量</label>
+            <input type="range" class="ss-range" style="width: 75%" id="ss-range-B"
+                   min="0" max="100" step="10">
+        </form>
+    </div>
+</div>
+
 <!-- ss-textarea -->
 <div id="demo-textarea">
     <h2>ss-textarea</h2>
     <hr>
     <h3><code>.ss-textarea</code></h3>
+    <small>(with <code>.ss-scrollbar</code> and <code>.ss-text-shadow</code>)</small><br>
     <textarea class="ss-textarea" rows="4" cols="30" style="width: 80%;">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-        aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </textarea>
-    <h4>...with <code>.ss-scrollbar</code> and <code>.ss-text-shadow</code></h4>
-    <textarea class="ss-textarea ss-scrollbar ss-text-shadow ss-fg-lightcyan" rows="4"
-              style="width: 80%;">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-        aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+"霸主以忠诚，传统和荣誉作为伪装，" Baird轻笑道，"它内部可是有数不清的派系和部委，为了不同的目标而无止境地进行着权力斗争。他们的斗争一般都是按部就班地按剧本来的。但是这剧本，正如我们的卢德朋友所证明的那样，根据不同的读者，会讲不同的故事。"
     </textarea>
 </div>
-
 
 <!-- ss-scrollbar(-*) -->
 <div id="demo-scrollbar">
     <h2>ss-scrollbar</h2>
     <small>⚠ Known browser compatibility issues (available for webkit only)</small>
     <hr>
-
     <h3><code>.ss-scrollbar</code></h3>
-    <textarea class="ss-scrollbar" style="overflow-x: scroll; white-space: nowrap; width: 80%"
-              rows="4"
-    >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <small>(with <code>.ss-textarea</code>)</small><br>
+    <textarea class="ss-scrollbar ss-textarea" style="overflow-x: scroll; white-space: nowrap; width: 80%"rows="4">
+"霸主以忠诚，传统和荣誉作为伪装，" Baird轻笑道，"它内部可是有数不清的派系和部委，为了不同的目标而无止境地进行着权力斗争。他们的斗争一般都是按部就班地按剧本来的。但是这剧本，正如我们的卢德朋友所证明的那样，根据不同的读者，会讲不同的故事。"
     </textarea>
     <br>
 
-    <textarea class="ss-scrollbar" style="overflow-y: scroll; width: 80%" rows="4">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <textarea class="ss-scrollbar ss-textarea" style="overflow-y: scroll; width: 80%" rows="4">
+"霸主以忠诚，
+传统和荣誉作为伪装，"
+Baird轻笑道，"它内部可是有数不清的派系和部委，
+为了不同的目标而无止境地进行着权力斗争。
+他们的斗争一般都是按部就班地按剧本来的。
+但是这剧本，正如我们的卢德朋友所证明的那样，
+根据不同的读者，会讲不同的故事。"
     </textarea>
     <br>
 
-    <textarea class="ss-scrollbar" style="overflow-y: scroll; white-space: nowrap;  width: 80%"
-              rows="4"
-              cols="50">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-        aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <textarea class="ss-scrollbar ss-textarea" style="overflow-y: scroll; white-space: nowrap;  width: 80%" rows="4" cols="50">
+"霸主以忠诚，传统和荣誉作为伪装，" Baird轻笑道，"它内部可是有数不清的派系和部委，为了不同的目标而无止境地进行着权力斗争。
+他们的斗争一般都是按部就班地按剧本来的。但是这剧本，正如我们的卢德朋友所证明的那样，根据不同的读者，会讲不同的故事。"
+"我就直说了，舰长。霸主的大部分人员知道了我们所做的事情，一定巴不得把我们 - 我和你 - 关进牢里，甚至是就地处决了。
+卢德教会的强硬派祈祷着把我们杀鸡儆猴，而且霸主统治阶层里信仰卢德的人太多了，很难对卢德教会守住秘密。Kallichore犯了个错误，那就是给了敌人一个借口: 现在有很多敌视的眼光盯着Galatia学院，就等着我们下一次失误。"
     </textarea>
 </div>
 

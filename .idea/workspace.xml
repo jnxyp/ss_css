@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9213a936-e6b3-4dcb-b6d1-63fcee1de6a6" name="Default Changelist" comment="Make color classes available to checkbox elements" />
+    <list default="true" id="9213a936-e6b3-4dcb-b6d1-63fcee1de6a6" name="Default Changelist" comment="Update dist">
+      <change afterPath="$PROJECT_DIR$/src/components/range.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ss_css.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ss_css.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/checkbox.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkbox.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scrollbar.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/scrollbar.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/starsector.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/starsector.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utility/font.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/font.less" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +83,7 @@
       <recent name="D:\Projects_Local\ss_css\src\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -134,6 +143,12 @@
       <workItem from="1635448470345" duration="3550000" />
       <workItem from="1637474617343" duration="22000" />
       <workItem from="1638547692771" duration="3681000" />
+      <workItem from="1638617139788" duration="549000" />
+      <workItem from="1638617838122" duration="351000" />
+      <workItem from="1638618706982" duration="5000" />
+      <workItem from="1638637616646" duration="69000" />
+      <workItem from="1638671805301" duration="817000" />
+      <workItem from="1638694512529" duration="10903000" />
     </task>
     <task id="LOCAL-00001" summary="Using webpack for LESS compiling and css postprocess;&#10;Separate different modules to different less files;&#10;Updated web fonts definition;&#10;Re-write ss-button classes with clip-path;&#10;Added color variables based on status (success, danger...).">
       <created>1626792904780</created>
@@ -184,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638551443603</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update dist">
+      <created>1638617686033</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638617686033</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +231,8 @@
     <MESSAGE value="Fix less import error and updated dist" />
     <MESSAGE value="Added .ss-checkbox-button component" />
     <MESSAGE value="Make color classes available to checkbox elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make color classes available to checkbox elements" />
+    <MESSAGE value="Update dist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update dist" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
